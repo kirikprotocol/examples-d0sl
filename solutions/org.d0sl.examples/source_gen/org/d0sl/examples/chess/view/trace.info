@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:a0ab6d81-03a6-4cd2-9b22-c3d647c99656(org.d0sl.examples.chess.view)/2775926615039998553">
+    <file name="BoardItem.java">
+      <node id="2775926615039998555" at="12,0,13,0" concept="3" trace="color" />
+      <node id="2775926615039998564" at="13,33,14,23" concept="2" />
+      <node id="2775926615039998571" at="16,0,17,0" concept="6" trace="draw#(Ljava/awt/Graphics;)V" />
+      <node id="2775926615039998559" at="13,0,16,0" concept="1" trace="BoardItem#(Ljava/awt/Color;)V" />
+      <scope id="2775926615039998563" at="13,33,14,23" />
+      <scope id="2775926615039998571" at="16,0,17,0">
+        <var name="g" id="2775926615039998572" />
+      </scope>
+      <scope id="2775926615039998559" at="13,0,16,0">
+        <var name="color" id="2775926615039998561" />
+      </scope>
+      <unit id="2775926615039998553" at="11,0,18,0" name="org.d0sl.examples.chess.view.BoardItem" />
+    </file>
+  </root>
+  <root nodeRef="r:a0ab6d81-03a6-4cd2-9b22-c3d647c99656(org.d0sl.examples.chess.view)/2775926615039999094">
+    <file name="NavigationPanel.java">
+      <node id="2775926615039999097" at="12,0,13,0" concept="3" trace="arrangeButton" />
+      <node id="2775926615039999104" at="13,28,14,11" concept="2" />
+      <node id="2775926615039999109" at="16,37,17,25" concept="8" />
+      <node id="2775926615039999115" at="19,23,20,52" concept="2" />
+      <node id="2775926615039999120" at="20,52,21,23" concept="2" />
+      <node id="2775926615039999101" at="13,0,16,0" concept="1" trace="NavigationPanel#()V" />
+      <node id="2775926615039999107" at="16,0,19,0" concept="6" trace="getArrangeButton#()Ljavax/swing/JButton;" />
+      <node id="2775926615039999113" at="19,0,23,0" concept="6" trace="init#()V" />
+      <scope id="2775926615039999103" at="13,28,14,11" />
+      <scope id="2775926615039999108" at="16,37,17,25" />
+      <scope id="2775926615039999114" at="19,23,21,23" />
+      <scope id="2775926615039999101" at="13,0,16,0" />
+      <scope id="2775926615039999107" at="16,0,19,0" />
+      <scope id="2775926615039999113" at="19,0,23,0" />
+      <unit id="2775926615039999094" at="11,0,24,0" name="org.d0sl.examples.chess.view.NavigationPanel" />
+    </file>
+  </root>
+  <root nodeRef="r:a0ab6d81-03a6-4cd2-9b22-c3d647c99656(org.d0sl.examples.chess.view)/2775926615039999796">
+    <file name="ChessFrame.java">
+      <node id="2775926615039999802" at="13,23,14,26" concept="2" />
+      <node id="2775926615039999806" at="14,26,15,44" concept="2" />
+      <node id="2775926615039999809" at="15,44,16,44" concept="2" />
+      <node id="2775926615039999812" at="16,44,17,21" concept="2" />
+      <node id="2775926615039999815" at="17,21,18,34" concept="2" />
+      <node id="2775926615039999823" at="20,43,21,35" concept="2" />
+      <node id="2775926615039999827" at="21,35,22,11" concept="2" />
+      <node id="2775926615039999835" at="24,44,25,53" concept="2" />
+      <node id="2775926615039999841" at="25,53,26,11" concept="2" />
+      <node id="2775926615039999819" at="20,0,24,0" concept="6" trace="addPanelNorth#(Ljavax/swing/JPanel;)V" />
+      <node id="2775926615039999831" at="24,0,28,0" concept="6" trace="addPanelCenter#(Ljavax/swing/JPanel;)V" />
+      <node id="2775926615039999799" at="13,0,20,0" concept="1" trace="ChessFrame#()V" />
+      <scope id="2775926615039999822" at="20,43,22,11" />
+      <scope id="2775926615039999834" at="24,44,26,11" />
+      <scope id="2775926615039999819" at="20,0,24,0">
+        <var name="panel" id="2775926615039999820" />
+      </scope>
+      <scope id="2775926615039999831" at="24,0,28,0">
+        <var name="panel" id="2775926615039999832" />
+      </scope>
+      <scope id="2775926615039999801" at="13,23,18,34" />
+      <scope id="2775926615039999799" at="13,0,20,0" />
+      <unit id="2775926615039999796" at="12,0,29,0" name="org.d0sl.examples.chess.view.ChessFrame" />
+    </file>
+  </root>
+  <root nodeRef="r:a0ab6d81-03a6-4cd2-9b22-c3d647c99656(org.d0sl.examples.chess.view)/2775926615040002082">
+    <file name="ChessSquare.java">
+      <node id="2775926615040002085" at="15,0,16,0" concept="10" trace="SQUARE_SIZE" />
+      <node id="2775926615040002089" at="16,0,17,0" concept="3" trace="highlightColor" />
+      <node id="2775926615040002094" at="17,0,18,0" concept="3" trace="posMoveColor" />
+      <node id="2775926615040002099" at="18,0,19,0" concept="3" trace="pieceImage" />
+      <node id="2775926615040002103" at="19,0,20,0" concept="3" trace="x" />
+      <node id="2775926615040002107" at="20,0,21,0" concept="3" trace="y" />
+      <node id="2775926615041928527" at="21,49,22,17" concept="11" />
+      <node id="2775926615040002120" at="22,17,23,15" concept="2" />
+      <node id="2775926615040002126" at="23,15,24,15" concept="2" />
+      <node id="2775926615040002139" at="26,42,27,28" concept="2" />
+      <node id="2775926615040002153" at="30,32,31,35" concept="7" />
+      <node id="2775926615040002159" at="31,35,32,75" concept="7" />
+      <node id="2775926615040002166" at="32,75,33,23" concept="2" />
+      <node id="2775926615040002169" at="33,23,34,15" concept="2" />
+      <node id="2775926615040002200" at="34,15,35,18" concept="9" />
+      <node id="2775926615040002178" at="36,29,37,42" concept="2" />
+      <node id="2775926615040002135" at="26,0,29,0" concept="6" trace="setPieceImage#(Ljava/awt/Image;)V" />
+      <node id="2775926615040002172" at="35,18,38,5" concept="5" />
+      <node id="2775926615040002111" at="21,0,26,0" concept="1" trace="ChessSquare#(Ljava/awt/Color;II)V" />
+      <node id="2775926615040002147" at="29,0,40,0" concept="6" trace="draw#(Ljava/awt/Graphics;)V" />
+      <scope id="2775926615040002138" at="26,42,27,28" />
+      <scope id="2775926615040002177" at="36,29,37,42" />
+      <scope id="2775926615040002119" at="21,49,24,15" />
+      <scope id="2775926615040002135" at="26,0,29,0">
+        <var name="image" id="2775926615040002136" />
+      </scope>
+      <scope id="2775926615040002111" at="21,0,26,0">
+        <var name="color" id="2775926615040002113" />
+        <var name="x" id="2775926615040002115" />
+        <var name="y" id="2775926615040002117" />
+      </scope>
+      <scope id="2775926615040002151" at="30,32,38,5">
+        <var name="g2" id="2775926615040002152" />
+        <var name="r" id="2775926615040002158" />
+      </scope>
+      <scope id="2775926615040002147" at="29,0,40,0">
+        <var name="g" id="2775926615040002149" />
+      </scope>
+      <unit id="2775926615040002082" at="14,0,41,0" name="org.d0sl.examples.chess.view.ChessSquare" />
+    </file>
+  </root>
+  <root nodeRef="r:a0ab6d81-03a6-4cd2-9b22-c3d647c99656(org.d0sl.examples.chess.view)/2775926615040002995">
+    <file name="ChessboardPanel.java">
+      <node id="2775926615040002998" at="16,0,17,0" concept="10" trace="CHESSWHITE" />
+      <node id="2775926615040003002" at="17,0,18,0" concept="10" trace="CHESSBLACK" />
+      <node id="2775926615040003006" at="18,0,19,0" concept="3" trace="squares" />
+      <node id="2775926615040003016" at="19,28,20,47" concept="7" />
+      <node id="2775926615040003021" at="20,47,21,56" concept="2" />
+      <node id="2775926615040003026" at="21,56,22,36" concept="2" />
+      <node id="2775926615040003036" at="22,36,23,26" concept="2" />
+      <node id="2775926615040003044" at="26,45,27,12" concept="2" />
+      <node id="2775926615040003079" at="31,35,32,30" concept="2" />
+      <node id="2775926615040003092" at="36,27,37,39" concept="2" />
+      <node id="2775926615040003102" at="39,38,40,29" concept="7" />
+      <node id="2775926615040003132" at="42,35,43,47" concept="7" />
+      <node id="2775926615040003138" at="43,47,44,47" concept="7" />
+      <node id="2775926615040003144" at="44,47,45,64" concept="7" />
+      <node id="2775926615040003150" at="45,64,46,31" concept="2" />
+      <node id="2775926615040003158" at="46,31,47,40" concept="2" />
+      <node id="2775926615040003163" at="48,7,49,38" concept="2" />
+      <node id="2775926615040003180" at="53,30,54,24" concept="8" />
+      <node id="2775926615040003184" at="55,12,56,24" concept="8" />
+      <node id="2775926615040003194" at="59,51,60,75" concept="2" />
+      <node id="2775926615040003209" at="62,35,63,63" concept="2" />
+      <node id="2775926615040003182" at="55,10,57,5" concept="0" />
+      <node id="2775926615040003066" at="30,33,33,7" concept="4" />
+      <node id="2775926615040003090" at="36,0,39,0" concept="6" trace="refreshUI#()V" />
+      <node id="2775926615040003188" at="59,0,62,0" concept="6" trace="setPiece#(Lorg/d0sl/examples/chess/pieces/Piece;Lorg/d0sl/examples/chess/chessboard/Position;)V" />
+      <node id="2775926615040003205" at="62,0,65,0" concept="6" trace="clear#(Lorg/d0sl/examples/chess/chessboard/Position;)V" />
+      <node id="2775926615040003039" at="25,0,29,0" concept="6" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="2775926615040003053" at="29,33,34,5" concept="4" />
+      <node id="2775926615040003174" at="52,47,57,5" concept="5" />
+      <node id="2775926615040003012" at="19,0,25,0" concept="1" trace="ChessboardPanel#()V" />
+      <node id="2775926615040003049" at="29,0,36,0" concept="6" trace="draw#(Ljava/awt/Graphics;)V" />
+      <node id="2775926615040003118" at="41,33,48,7" concept="4" />
+      <node id="2775926615040003170" at="52,0,59,0" concept="6" trace="switchBlackWhite#(Ljava/awt/Color;)Ljava/awt/Color;" />
+      <node id="2775926615040003105" at="40,29,50,5" concept="4" />
+      <node id="2775926615040003099" at="39,0,52,0" concept="6" trace="createAndAddSquares#()V" />
+      <scope id="2775926615040003043" at="26,45,27,12" />
+      <scope id="2775926615040003078" at="31,35,32,30" />
+      <scope id="2775926615040003091" at="36,27,37,39" />
+      <scope id="2775926615040003179" at="53,30,54,24" />
+      <scope id="2775926615040003183" at="55,12,56,24" />
+      <scope id="2775926615040003193" at="59,51,60,75" />
+      <scope id="2775926615040003208" at="62,35,63,63" />
+      <scope id="2775926615040003065" at="30,33,33,7" />
+      <scope id="2775926615040003066" at="30,33,33,7">
+        <var name="y" id="2775926615040003067" />
+      </scope>
+      <scope id="2775926615040003090" at="36,0,39,0" />
+      <scope id="2775926615040003188" at="59,0,62,0">
+        <var name="piece" id="2775926615040003189" />
+        <var name="pos" id="2775926615040003191" />
+      </scope>
+      <scope id="2775926615040003205" at="62,0,65,0">
+        <var name="pos" id="2775926615040003206" />
+      </scope>
+      <scope id="2775926615040003014" at="19,28,23,26">
+        <var name="prefSize" id="2775926615040003015" />
+      </scope>
+      <scope id="2775926615040003039" at="25,0,29,0">
+        <var name="g" id="2775926615040003041" />
+      </scope>
+      <scope id="2775926615040003052" at="29,33,34,5" />
+      <scope id="2775926615040003053" at="29,33,34,5">
+        <var name="x" id="2775926615040003054" />
+      </scope>
+      <scope id="2775926615040003130" at="42,35,47,40">
+        <var name="square" id="2775926615040003143" />
+        <var name="xPos" id="2775926615040003131" />
+        <var name="yPos" id="2775926615040003137" />
+      </scope>
+      <scope id="2775926615040003173" at="52,47,57,5" />
+      <scope id="2775926615040003012" at="19,0,25,0" />
+      <scope id="2775926615040003049" at="29,0,36,0">
+        <var name="g" id="2775926615040003050" />
+      </scope>
+      <scope id="2775926615040003118" at="41,33,48,7">
+        <var name="y" id="2775926615040003119" />
+      </scope>
+      <scope id="2775926615040003170" at="52,0,59,0">
+        <var name="color" id="2775926615040003171" />
+      </scope>
+      <scope id="2775926615040003117" at="41,33,49,38" />
+      <scope id="2775926615040003105" at="40,29,50,5">
+        <var name="x" id="2775926615040003106" />
+      </scope>
+      <scope id="2775926615040003100" at="39,38,50,5">
+        <var name="color" id="2775926615040003101" />
+      </scope>
+      <scope id="2775926615040003099" at="39,0,52,0" />
+      <unit id="2775926615040002995" at="15,0,66,0" name="org.d0sl.examples.chess.view.ChessboardPanel" />
+    </file>
+  </root>
+</debug-info>
+
