@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:18fc9c67-cfa0-4193-959f-1e6d204700ac(org.d0sl.examples.auto)/2775926615039998290">
+    <file name="AutodromeDSL.java">
+      <node id="2775926615039998295" at="13,0,14,0" concept="2" trace="autodrome" />
+      <node id="2775926615039998304" at="20,49,21,42" concept="1" />
+      <node id="2775926615039998318" at="24,52,25,47" concept="4" />
+      <node id="2775926615039998330" at="28,56,29,51" concept="4" />
+      <node id="2775926615039998342" at="32,57,33,52" concept="4" />
+      <node id="2775926615039998354" at="36,43,37,38" concept="4" />
+      <node id="2775926615039998366" at="40,42,41,37" concept="4" />
+      <node id="2775926615039998378" at="44,42,45,37" concept="4" />
+      <node id="2775926615039998390" at="48,47,49,42" concept="4" />
+      <node id="2775926615039998402" at="52,42,53,37" concept="4" />
+      <node id="2775926615039998414" at="56,43,57,38" concept="4" />
+      <node id="2775926615039998426" at="60,51,61,46" concept="4" />
+      <node id="2775926615039998438" at="64,50,65,45" concept="4" />
+      <node id="2775926615039998450" at="68,51,69,46" concept="4" />
+      <node id="2775926615039998464" at="72,50,73,39" concept="4" />
+      <node id="2775926615039998481" at="76,72,77,54" concept="4" />
+      <node id="2775926615039998497" at="80,56,81,45" concept="4" />
+      <node id="2775926615039998299" at="20,0,23,0" concept="0" trace="AutodromeDSL#(Lorg/d0sl/machine/SemanticMachine;)V" />
+      <node id="2775926615039998311" at="23,0,27,0" concept="3" trace="isRoadSignAllowsMove#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998323" at="27,0,31,0" concept="3" trace="isRoadSignAllowsTurnLeft#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998335" at="31,0,35,0" concept="3" trace="isRoadSignAllowsTurnRight#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998347" at="35,0,39,0" concept="3" trace="isWallAhead#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998359" at="39,0,43,0" concept="3" trace="isRoadSign#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998371" at="43,0,47,0" concept="3" trace="isCarAhead#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998383" at="47,0,51,0" concept="3" trace="isCarHeadToHead#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998395" at="51,0,55,0" concept="3" trace="isWallLeft#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998407" at="55,0,59,0" concept="3" trace="isWallRight#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998419" at="59,0,63,0" concept="3" trace="isInterferenceRight#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998431" at="63,0,67,0" concept="3" trace="isInterferenceLeft#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998443" at="67,0,71,0" concept="3" trace="isInterferenceAhead#(Lorg/d0sl/examples/auto/drome/RoboCar;)Z" />
+      <node id="2775926615039998455" at="71,0,75,0" concept="3" trace="addWall#(DD)Z" />
+      <node id="2775926615039998470" at="75,0,79,0" concept="3" trace="addRoadSign#(DDLjava/lang/String;)Z" />
+      <node id="2775926615039998488" at="79,0,83,0" concept="3" trace="start#(DD)Z" />
+      <scope id="2775926615039998303" at="20,49,21,42" />
+      <scope id="2775926615039998317" at="24,52,25,47" />
+      <scope id="2775926615039998329" at="28,56,29,51" />
+      <scope id="2775926615039998341" at="32,57,33,52" />
+      <scope id="2775926615039998353" at="36,43,37,38" />
+      <scope id="2775926615039998365" at="40,42,41,37" />
+      <scope id="2775926615039998377" at="44,42,45,37" />
+      <scope id="2775926615039998389" at="48,47,49,42" />
+      <scope id="2775926615039998401" at="52,42,53,37" />
+      <scope id="2775926615039998413" at="56,43,57,38" />
+      <scope id="2775926615039998425" at="60,51,61,46" />
+      <scope id="2775926615039998437" at="64,50,65,45" />
+      <scope id="2775926615039998449" at="68,51,69,46" />
+      <scope id="2775926615039998463" at="72,50,73,39" />
+      <scope id="2775926615039998480" at="76,72,77,54" />
+      <scope id="2775926615039998496" at="80,56,81,45" />
+      <scope id="2775926615039998299" at="20,0,23,0">
+        <var name="semantic" id="2775926615039998301" />
+      </scope>
+      <scope id="2775926615039998311" at="23,0,27,0">
+        <var name="car" id="2775926615039998315" />
+      </scope>
+      <scope id="2775926615039998323" at="27,0,31,0">
+        <var name="car" id="2775926615039998327" />
+      </scope>
+      <scope id="2775926615039998335" at="31,0,35,0">
+        <var name="car" id="2775926615039998339" />
+      </scope>
+      <scope id="2775926615039998347" at="35,0,39,0">
+        <var name="car" id="2775926615039998351" />
+      </scope>
+      <scope id="2775926615039998359" at="39,0,43,0">
+        <var name="car" id="2775926615039998363" />
+      </scope>
+      <scope id="2775926615039998371" at="43,0,47,0">
+        <var name="car" id="2775926615039998375" />
+      </scope>
+      <scope id="2775926615039998383" at="47,0,51,0">
+        <var name="car" id="2775926615039998387" />
+      </scope>
+      <scope id="2775926615039998395" at="51,0,55,0">
+        <var name="car" id="2775926615039998399" />
+      </scope>
+      <scope id="2775926615039998407" at="55,0,59,0">
+        <var name="car" id="2775926615039998411" />
+      </scope>
+      <scope id="2775926615039998419" at="59,0,63,0">
+        <var name="car" id="2775926615039998423" />
+      </scope>
+      <scope id="2775926615039998431" at="63,0,67,0">
+        <var name="car" id="2775926615039998435" />
+      </scope>
+      <scope id="2775926615039998443" at="67,0,71,0">
+        <var name="car" id="2775926615039998447" />
+      </scope>
+      <scope id="2775926615039998455" at="71,0,75,0">
+        <var name="col" id="2775926615039998461" />
+        <var name="row" id="2775926615039998459" />
+      </scope>
+      <scope id="2775926615039998470" at="75,0,79,0">
+        <var name="col" id="2775926615039998476" />
+        <var name="direction" id="2775926615039998478" />
+        <var name="row" id="2775926615039998474" />
+      </scope>
+      <scope id="2775926615039998488" at="79,0,83,0">
+        <var name="carNumber" id="2775926615039998492" />
+        <var name="pause" id="2775926615039998494" />
+      </scope>
+      <unit id="2775926615039998290" at="11,0,84,0" name="org.d0sl.examples.auto.AutodromeDSL" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.d0sl.examples.auto.drome.AIAutodrome" file="AIAutodrome.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="java.lang.InterruptedException" />
+    <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.Runnable" />
+    <classNode dependClassName="java.lang.RuntimeException" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.Thread" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Random" />
+    <classNode dependClassName="javax.swing.SwingUtilities" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.Cell" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.Direction" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.RoadSign" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.RoboCar" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.Wall" />
+    <classNode dependClassName="org.d0sl.machine.SemanticException" />
+    <classNode dependClassName="org.d0sl.machine.SemanticMachine" />
+    <classNode dependClassName="org.d0sl.model.expression.Logical" />
+    <classNode extendsClassName="org.d0sl.examples.auto.drome.Autodrome" />
+  </dependency>
+  <dependency className="org.d0sl.examples.auto.drome.Autodrome" file="Autodrome.java">
+    <classNode dependClassName="java.awt.BorderLayout" />
+    <classNode dependClassName="java.awt.Dimension" />
+    <classNode dependClassName="java.awt.GridLayout" />
+    <classNode dependClassName="java.lang.RuntimeException" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.JOptionPane" />
+    <classNode dependClassName="javax.swing.JPanel" />
+    <classNode dependClassName="javax.swing.UIManager" />
+    <classNode dependClassName="javax.swing.UnsupportedLookAndFeelException" />
+    <classNode dependClassName="javax.swing.plaf.metal.MetalLookAndFeel" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.Cell" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.Wall" />
+  </dependency>
+  <dependency className="org.d0sl.examples.auto.drome.Cell" file="Cell.java">
+    <classNode dependClassName="java.awt.Color" />
+    <classNode dependClassName="java.lang.ClassLoader" />
+    <classNode dependClassName="javax.swing.ImageIcon" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.Direction" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.RoboCar" />
+    <classNode extendsClassName="org.d0sl.examples.auto.drome.VisualCell" />
+  </dependency>
+  <dependency className="org.d0sl.examples.auto.drome.Direction" file="Direction.java" />
+  <dependency className="org.d0sl.examples.auto.drome.RoadSign" file="RoadSign.java">
+    <classNode dependClassName="java.awt.Color" />
+    <classNode dependClassName="java.lang.ClassLoader" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="javax.swing.ImageIcon" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.Direction" />
+    <classNode extendsClassName="org.d0sl.examples.auto.drome.Cell" />
+  </dependency>
+  <dependency className="org.d0sl.examples.auto.drome.RoboCar" file="RoboCar.java">
+    <classNode dependClassName="java.lang.SuppressWarnings" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.Direction" />
+    <classNode extendsClassName="org.d0sl.model.BaseObject" />
+  </dependency>
+  <dependency className="org.d0sl.examples.auto.drome.VisualCell" file="VisualCell.java">
+    <classNode dependClassName="java.awt.BorderLayout" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javax.swing.Icon" />
+    <classNode dependClassName="javax.swing.JLabel" />
+    <classNode dependClassName="javax.swing.border.LineBorder" />
+    <classNode extendsClassName="javax.swing.JPanel" />
+  </dependency>
+  <dependency className="org.d0sl.examples.auto.drome.Wall" file="Wall.java">
+    <classNode dependClassName="java.awt.Color" />
+    <classNode dependClassName="java.lang.ClassLoader" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.RuntimeException" />
+    <classNode dependClassName="javax.swing.ImageIcon" />
+    <classNode dependClassName="org.d0sl.examples.auto.drome.RoboCar" />
+    <classNode extendsClassName="org.d0sl.examples.auto.drome.Cell" />
+  </dependency>
+</dependenciesRoot>
+

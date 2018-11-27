@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:a4d726b6-4316-42fc-bd72-1786604c84b3(org.d0sl.examples.chess)/2775926615039998518">
+    <file name="ChessBoard.java">
+      <node id="2775926615039998521" at="12,0,13,0" concept="4" trace="board" />
+      <node id="2775926615040728591" at="13,39,14,36" concept="14" />
+      <node id="2775926615039998530" at="14,36,15,23" concept="3" />
+      <node id="2775926615039998542" at="17,32,18,17" concept="10" />
+      <node id="2775926615039998540" at="17,0,20,0" concept="8" trace="getBoard#()Lorg/d0sl/examples/chess/chessboard/Chessboard;" />
+      <node id="2775926615039998525" at="13,0,17,0" concept="1" trace="ChessBoard#(Lorg/d0sl/examples/chess/chessboard/Chessboard;)V" />
+      <scope id="2775926615039998541" at="17,32,18,17" />
+      <scope id="2775926615039998529" at="13,39,15,23" />
+      <scope id="2775926615039998540" at="17,0,20,0" />
+      <scope id="2775926615039998525" at="13,0,17,0">
+        <var name="board" id="2775926615039998527" />
+      </scope>
+      <unit id="2775926615039998518" at="11,0,21,0" name="org.d0sl.examples.chess.ChessBoard" />
+    </file>
+  </root>
+  <root nodeRef="r:a4d726b6-4316-42fc-bd72-1786604c84b3(org.d0sl.examples.chess)/2775926615039999208">
+    <file name="ChessRobot.java">
+      <node id="2775926615039999210" at="26,0,27,0" concept="4" trace="random" />
+      <node id="2775926615039999215" at="27,0,28,0" concept="4" trace="frame" />
+      <node id="2775926615039999219" at="28,0,29,0" concept="4" trace="boardPanel" />
+      <node id="2775926615039999223" at="29,0,30,0" concept="4" trace="board" />
+      <node id="2775926615039999227" at="30,0,31,0" concept="4" trace="semantic" />
+      <node id="2775926615039999236" at="31,47,32,29" concept="3" />
+      <node id="2775926615039999245" at="34,25,35,45" concept="3" />
+      <node id="2775926615039999250" at="35,45,36,29" concept="3" />
+      <node id="2775926615039999255" at="36,29,37,53" concept="9" />
+      <node id="2775926615042258201" at="39,51,40,18" concept="3" />
+      <node id="2775926615039999262" at="42,7,43,39" concept="3" />
+      <node id="2775926615039999266" at="43,39,44,37" concept="3" />
+      <node id="2775926615039999269" at="44,37,45,34" concept="3" />
+      <node id="2775926615039999272" at="45,34,46,16" concept="10" />
+      <node id="2775926615039999300" at="50,35,51,45" concept="3" />
+      <node id="2775926615039999307" at="53,5,54,27" concept="3" />
+      <node id="2775926615039999309" at="54,27,55,57" concept="10" />
+      <node id="2775926615039999339" at="58,33,59,32" concept="9" />
+      <node id="2775926615039999344" at="59,32,60,32" concept="9" />
+      <node id="2775926615039999349" at="60,32,61,42" concept="9" />
+      <node id="2775926615039999357" at="62,36,63,17" concept="2" />
+      <node id="2775926615039999359" at="64,7,65,25" concept="3" />
+      <node id="2775926615039999372" at="66,33,67,54" concept="3" />
+      <node id="2775926615039999390" at="69,15,70,47" concept="3" />
+      <node id="2775926615039999396" at="70,47,71,81" concept="9" />
+      <node id="2775926615039999407" at="72,51,73,34" concept="3" />
+      <node id="2775926615039999415" at="73,34,74,49" concept="3" />
+      <node id="2775926615039999422" at="75,20,76,55" concept="3" />
+      <node id="2775926615039999430" at="76,55,77,37" concept="3" />
+      <node id="2775926615039999438" at="78,37,79,28" concept="10" />
+      <node id="2775926615039999451" at="81,73,82,30" concept="10" />
+      <node id="2775926615039999455" at="83,24,84,38" concept="3" />
+      <node id="2775926615039999463" at="84,38,85,53" concept="3" />
+      <node id="2775926615039999468" at="85,53,86,42" concept="3" />
+      <node id="2775926615039999471" at="86,42,87,41" concept="3" />
+      <node id="2775926615039999478" at="91,41,92,32" concept="3" />
+      <node id="2775926615039999491" at="95,65,96,22" concept="10" />
+      <node id="2775926615039999494" at="99,5,100,17" concept="10" />
+      <node id="2775926615039999231" at="31,0,34,0" concept="1" trace="ChessRobot#(Lorg/d0sl/machine/SemanticMachine;)V" />
+      <node id="2775926615042257745" at="39,0,42,0" concept="8" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+      <node id="2775926615039999289" at="49,33,52,7" concept="5" />
+      <node id="2775926615039999354" at="61,42,64,7" concept="7" />
+      <node id="2775926615039999482" at="94,14,97,9" concept="7" />
+      <node id="2775926615039999258" at="37,53,42,7" concept="3" />
+      <node id="2775926615039999278" at="48,29,53,5" concept="5" />
+      <node id="2775926615039999453" at="83,22,88,17" concept="0" />
+      <node id="2775926615039999442" at="80,22,88,17" concept="7" />
+      <node id="2775926615039999276" at="48,0,57,0" concept="8" trace="arrange#()Z" />
+      <node id="2775926615039999440" at="80,20,89,15" concept="0" />
+      <node id="2775926615039999432" at="77,37,89,15" concept="7" />
+      <node id="2775926615039999243" at="34,0,48,0" concept="8" trace="show#()Z" />
+      <node id="2775926615039999420" at="75,18,90,13" concept="0" />
+      <node id="2775926615039999401" at="71,81,90,13" concept="7" />
+      <node id="2775926615039999480" at="68,31,93,11" concept="15" />
+      <node id="2775926615039999382" at="67,54,97,9" concept="7" />
+      <node id="2775926615039999362" at="65,25,98,7" concept="7" />
+      <node id="2775926615039999493" at="57,92,99,5" concept="16" />
+      <node id="2775926615039999322" at="57,0,102,0" concept="8" trace="arrange#([[Lorg/d0sl/examples/chess/pieces/Piece;Ljava/util/LinkedList;I)Z" />
+      <scope id="2775926615039999235" at="31,47,32,29" />
+      <scope id="2775926615042257751" at="39,51,40,18" />
+      <scope id="2775926615039999305" at="50,35,51,45" />
+      <scope id="2775926615039999358" at="62,36,63,17" />
+      <scope id="2775926615039999437" at="78,37,79,28" />
+      <scope id="2775926615039999450" at="81,73,82,30" />
+      <scope id="2775926615039999481" at="91,0,92,32">
+        <var name="e" id="2775926615039999473" />
+      </scope>
+      <scope id="2775926615039999477" at="91,41,92,32" />
+      <scope id="2775926615039999490" at="95,65,96,22" />
+      <scope id="2775926615039999406" at="72,51,74,49" />
+      <scope id="2775926615039999231" at="31,0,34,0">
+        <var name="semantic" id="2775926615039999233" />
+      </scope>
+      <scope id="2775926615042257745" at="39,0,42,0">
+        <var name="p0" id="2775926615042257749" />
+      </scope>
+      <scope id="2775926615039999289" at="49,33,52,7">
+        <var name="j" id="2775926615039999290" />
+      </scope>
+      <scope id="2775926615039999306" at="49,33,52,7" />
+      <scope id="2775926615039999454" at="83,24,87,41" />
+      <scope id="2775926615039999278" at="48,29,53,5">
+        <var name="i" id="2775926615039999279" />
+      </scope>
+      <scope id="2775926615039999277" at="48,29,55,57" />
+      <scope id="2775926615039999441" at="80,22,88,17" />
+      <scope id="2775926615039999276" at="48,0,57,0" />
+      <scope id="2775926615039999244" at="34,25,46,16">
+        <var name="navPanel" id="2775926615039999254" />
+      </scope>
+      <scope id="2775926615039999243" at="34,0,48,0" />
+      <scope id="2775926615039999421" at="75,20,89,15" />
+      <scope id="2775926615039999389" at="69,15,90,13">
+        <var name="check" id="2775926615039999395" />
+      </scope>
+      <scope id="2775926615039999387" at="68,31,93,11" />
+      <scope id="2775926615039999371" at="66,33,97,9" />
+      <scope id="2775926615039999337" at="58,33,98,7">
+        <var name="i" id="2775926615039999338" />
+        <var name="j" id="2775926615039999343" />
+        <var name="visit" id="2775926615039999348" />
+      </scope>
+      <scope id="2775926615039999332" at="57,92,100,17" />
+      <scope id="2775926615039999322" at="57,0,102,0">
+        <var name="pieces" id="2775926615039999323" />
+        <var name="queenNumber" id="2775926615039999330" />
+        <var name="visited" id="2775926615039999327" />
+      </scope>
+      <unit id="2775926615042257743" at="38,54,42,5" name="org.d0sl.examples.chess.ChessRobot$1" />
+      <unit id="2775926615039999208" at="25,0,103,0" name="org.d0sl.examples.chess.ChessRobot" />
+    </file>
+  </root>
+  <root nodeRef="r:a4d726b6-4316-42fc-bd72-1786604c84b3(org.d0sl.examples.chess)/2775926615039999666">
+    <file name="ChessQueen.java">
+      <node id="2775926615039999669" at="11,0,12,0" concept="4" trace="col" />
+      <node id="2775926615039999673" at="12,0,13,0" concept="4" trace="raw" />
+      <node id="2775926615041925969" at="13,39,14,36" concept="14" />
+      <node id="2775926615039999684" at="14,36,15,19" concept="3" />
+      <node id="2775926615039999690" at="15,19,16,19" concept="3" />
+      <node id="2775926615039999703" at="19,28,20,58" concept="10" />
+      <node id="2775926615039999717" at="22,23,23,15" concept="10" />
+      <node id="2775926615039999723" at="25,23,26,15" concept="10" />
+      <node id="2775926615039999715" at="22,0,25,0" concept="8" trace="getCol#()I" />
+      <node id="2775926615039999721" at="25,0,28,0" concept="8" trace="getRaw#()I" />
+      <node id="2775926615039999700" at="18,0,22,0" concept="8" trace="toString#()Ljava/lang/String;" />
+      <node id="2775926615039999677" at="13,0,18,0" concept="1" trace="ChessQueen#(II)V" />
+      <scope id="2775926615039999702" at="19,28,20,58" />
+      <scope id="2775926615039999716" at="22,23,23,15" />
+      <scope id="2775926615039999722" at="25,23,26,15" />
+      <scope id="2775926615039999683" at="13,39,16,19" />
+      <scope id="2775926615039999715" at="22,0,25,0" />
+      <scope id="2775926615039999721" at="25,0,28,0" />
+      <scope id="2775926615039999700" at="18,0,22,0" />
+      <scope id="2775926615039999677" at="13,0,18,0">
+        <var name="col" id="2775926615039999679" />
+        <var name="raw" id="2775926615039999681" />
+      </scope>
+      <unit id="2775926615039999666" at="10,0,29,0" name="org.d0sl.examples.chess.ChessQueen" />
+    </file>
+  </root>
+  <root nodeRef="r:a4d726b6-4316-42fc-bd72-1786604c84b3(org.d0sl.examples.chess)/2775926615040001331">
+    <file name="ChessAII.java">
+      <node id="2775926615040001333" at="26,0,27,0" concept="12" trace="name" />
+      <node id="2775926615040001336" at="27,0,28,0" concept="12" trace="model" />
+      <node id="2775926615040001341" at="28,10,29,22" concept="3" />
+      <node id="2775926615040001345" at="29,22,30,36" concept="3" />
+      <node id="2775926615040001353" at="32,34,33,16" concept="10" />
+      <node id="2775926615040001359" at="35,42,36,17" concept="10" />
+      <node id="2775926615040001381" at="51,57,52,42" concept="3" />
+      <node id="2775926615040001384" at="52,42,53,42" concept="3" />
+      <node id="2775926615040001387" at="53,42,54,44" concept="3" />
+      <node id="2775926615040001390" at="54,44,55,42" concept="3" />
+      <node id="2775926615040001393" at="55,42,56,42" concept="3" />
+      <node id="2775926615040001396" at="56,42,57,42" concept="3" />
+      <node id="2775926615040001427" at="63,11,64,37" concept="3" />
+      <node id="2775926615040001430" at="64,37,65,37" concept="3" />
+      <node id="2775926615040001435" at="72,6,73,15" concept="10" />
+      <node id="2775926615040001457" at="77,7,78,31" concept="3" />
+      <node id="2775926615040001470" at="86,6,87,15" concept="10" />
+      <node id="2775926615040665040" at="93,11,94,37" concept="3" />
+      <node id="2775926615040665043" at="94,37,95,43" concept="3" />
+      <node id="2775926615040665046" at="95,43,96,43" concept="3" />
+      <node id="2775926615040665051" at="96,43,97,43" concept="3" />
+      <node id="2775926615040001521" at="100,11,101,33" concept="3" />
+      <node id="2775926615040001525" at="101,33,102,33" concept="3" />
+      <node id="2775926615040668730" at="112,11,113,37" concept="3" />
+      <node id="2775926615040668733" at="113,37,114,42" concept="3" />
+      <node id="2775926615040668736" at="114,42,115,77" concept="3" />
+      <node id="2775926615040001564" at="119,6,120,15" concept="10" />
+      <node id="2775926615040668410" at="126,11,127,37" concept="3" />
+      <node id="2775926615040668413" at="127,37,128,47" concept="3" />
+      <node id="2775926615040668416" at="128,47,129,43" concept="3" />
+      <node id="2775926615040668421" at="129,43,130,43" concept="3" />
+      <node id="2775926615040001615" at="133,11,134,33" concept="3" />
+      <node id="2775926615040001619" at="134,33,135,33" concept="3" />
+      <node id="2775926615040668669" at="145,11,146,37" concept="3" />
+      <node id="2775926615040668672" at="146,37,147,42" concept="3" />
+      <node id="2775926615040668675" at="147,42,148,77" concept="3" />
+      <node id="2775926615040001658" at="152,6,153,15" concept="10" />
+      <node id="2775926615040666571" at="161,15,162,41" concept="3" />
+      <node id="2775926615040666574" at="162,41,163,47" concept="3" />
+      <node id="2775926615040666577" at="163,47,164,47" concept="3" />
+      <node id="2775926615040666582" at="164,47,165,47" concept="3" />
+      <node id="2775926615040660221" at="169,15,170,41" concept="3" />
+      <node id="2775926615040660224" at="170,41,171,51" concept="3" />
+      <node id="2775926615040660227" at="171,51,172,47" concept="3" />
+      <node id="2775926615040660231" at="172,47,173,47" concept="3" />
+      <node id="2775926615040001709" at="178,11,179,33" concept="3" />
+      <node id="2775926615040001713" at="179,33,180,33" concept="3" />
+      <node id="2775926615040667766" at="190,11,191,37" concept="3" />
+      <node id="2775926615040667769" at="191,37,192,42" concept="3" />
+      <node id="2775926615040667772" at="192,42,193,77" concept="3" />
+      <node id="2775926615040001783" at="197,6,198,15" concept="10" />
+      <node id="2775926615040690101" at="204,11,205,37" concept="3" />
+      <node id="2775926615040690104" at="205,37,206,44" concept="3" />
+      <node id="2775926615040690107" at="206,44,207,42" concept="3" />
+      <node id="2775926615040690111" at="207,42,208,43" concept="3" />
+      <node id="2775926615040661014" at="211,11,212,33" concept="3" />
+      <node id="2775926615040001834" at="215,11,216,32" concept="3" />
+      <node id="2775926615040662797" at="222,15,223,41" concept="3" />
+      <node id="2775926615040662800" at="223,41,224,47" concept="3" />
+      <node id="2775926615040662803" at="224,47,225,47" concept="3" />
+      <node id="2775926615040662807" at="225,47,226,47" concept="3" />
+      <node id="2775926615040665504" at="230,15,231,41" concept="3" />
+      <node id="2775926615040665507" at="231,41,232,51" concept="3" />
+      <node id="2775926615040665510" at="232,51,233,47" concept="3" />
+      <node id="2775926615040665514" at="233,47,234,47" concept="3" />
+      <node id="2775926615040001884" at="239,11,240,33" concept="3" />
+      <node id="2775926615040001888" at="240,33,241,33" concept="3" />
+      <node id="2775926615040668521" at="251,11,252,37" concept="3" />
+      <node id="2775926615040668524" at="252,37,253,42" concept="3" />
+      <node id="2775926615040668527" at="253,42,254,76" concept="3" />
+      <node id="2775926615040001958" at="258,6,259,15" concept="10" />
+      <node id="2775926615040002079" at="261,42,262,30" concept="11" />
+      <node id="2775926615040001967" at="262,30,263,24" concept="3" />
+      <node id="2775926615040001970" at="263,24,264,20" concept="3" />
+      <node id="2775926615040001973" at="264,20,265,25" concept="3" />
+      <node id="2775926615040001976" at="265,25,266,30" concept="3" />
+      <node id="2775926615040002081" at="266,30,267,45" concept="11" />
+      <node id="2775926615040001980" at="267,45,268,65" concept="9" />
+      <node id="2775926615040001986" at="269,9,270,52" concept="9" />
+      <node id="2775926615040001991" at="270,52,271,92" concept="9" />
+      <node id="2775926615040001997" at="271,92,272,66" concept="3" />
+      <node id="2775926615040002001" at="272,66,273,69" concept="9" />
+      <node id="2775926615040002006" at="273,69,274,39" concept="9" />
+      <node id="2775926615040002012" at="275,52,276,34" concept="3" />
+      <node id="2775926615040002022" at="277,55,278,24" concept="3" />
+      <node id="2775926615040002036" at="281,26,282,59" concept="3" />
+      <node id="2775926615040002045" at="284,36,285,27" concept="3" />
+      <node id="2775926615040001363" at="41,0,43,0" concept="13" trace="addVariables#(Lorg/d0sl/model/SemanticModel;)V" />
+      <node id="2775926615040001370" at="46,0,48,0" concept="13" trace="addRules#(Lorg/d0sl/model/SemanticModel;)V" />
+      <node id="2775926615040001351" at="32,0,35,0" concept="13" trace="getName#()Ljava/lang/String;" />
+      <node id="2775926615040001357" at="35,0,38,0" concept="13" trace="getModel#()Lorg/d0sl/model/SemanticModel;" />
+      <node id="2775926615040002015" at="276,34,279,9" concept="7" />
+      <node id="2775926615040002030" at="280,7,283,7" concept="7" />
+      <node id="2775926615040001420" at="61,7,67,11" concept="3" />
+      <node id="2775926615040002009" at="274,39,280,7" concept="6" />
+      <node id="2775926615040001484" at="110,7,117,12" concept="3" />
+      <node id="2775926615040001578" at="143,7,150,12" concept="3" />
+      <node id="2775926615040001672" at="188,7,195,12" concept="3" />
+      <node id="2775926615040001797" at="249,7,256,12" concept="3" />
+      <node id="2775926615040001377" at="51,0,59,0" concept="13" trace="addPredicates#(Lorg/d0sl/model/SemanticModel;)V" />
+      <node id="2775926615040001726" at="159,11,167,16" concept="3" />
+      <node id="2775926615040001749" at="167,16,175,16" concept="3" />
+      <node id="2775926615040001901" at="220,11,228,16" concept="3" />
+      <node id="2775926615040001924" at="228,16,236,16" concept="3" />
+      <node id="2775926615040001442" at="75,45,86,6" concept="9" />
+      <node id="2775926615040001405" at="59,45,72,6" concept="9" />
+      <node id="2775926615040001514" at="91,7,104,11" concept="3" />
+      <node id="2775926615040001608" at="124,7,137,11" concept="3" />
+      <node id="2775926615040001439" at="75,0,89,0" concept="13" trace="predicate_e0#()Lorg/d0sl/model/PredicateDef;" />
+      <node id="2775926615040001402" at="59,0,75,0" concept="13" trace="predicate_c0#()Lorg/d0sl/model/PredicateDef;" />
+      <node id="2775926615040001827" at="202,7,218,11" concept="3" />
+      <node id="2775926615040002047" at="268,65,286,5" concept="15" />
+      <node id="2775926615040001702" at="157,7,182,11" concept="3" />
+      <node id="2775926615040001877" at="218,11,243,11" concept="3" />
+      <node id="2775926615040001962" at="261,0,288,0" concept="13" trace="main#([Ljava/lang/String;)V" />
+      <node id="2775926615040001477" at="89,47,119,6" concept="9" />
+      <node id="2775926615040001571" at="122,45,152,6" concept="9" />
+      <node id="2775926615040001474" at="89,0,122,0" concept="13" trace="predicate_h0_0#()Lorg/d0sl/model/PredicateDef;" />
+      <node id="2775926615040001568" at="122,0,155,0" concept="13" trace="predicate_j0#()Lorg/d0sl/model/PredicateDef;" />
+      <node id="2775926615040001665" at="155,45,197,6" concept="9" />
+      <node id="2775926615040001662" at="155,0,200,0" concept="13" trace="predicate_m0#()Lorg/d0sl/model/PredicateDef;" />
+      <node id="2775926615040001790" at="200,45,258,6" concept="9" />
+      <node id="2775926615040001787" at="200,0,261,0" concept="13" trace="predicate_o0#()Lorg/d0sl/model/PredicateDef;" />
+      <scope id="2775926615040001366" at="41,56,41,56" />
+      <scope id="2775926615040001373" at="46,52,46,52" />
+      <scope id="2775926615040001411" at="70,7,70,7" />
+      <scope id="2775926615040001465" at="81,7,81,7" />
+      <scope id="2775926615040001448" at="84,7,84,7" />
+      <scope id="2775926615040001559" at="107,7,107,7" />
+      <scope id="2775926615040001653" at="140,7,140,7" />
+      <scope id="2775926615040001778" at="185,7,185,7" />
+      <scope id="2775926615040001953" at="246,7,246,7" />
+      <scope id="2775926615040001352" at="32,34,33,16" />
+      <scope id="2775926615040001358" at="35,42,36,17" />
+      <scope id="2775926615040001456" at="77,7,78,31" />
+      <scope id="2775926615040661013" at="211,11,212,33" />
+      <scope id="2775926615040001833" at="215,11,216,32" />
+      <scope id="2775926615040002021" at="277,55,278,24" />
+      <scope id="2775926615040002035" at="281,26,282,59" />
+      <scope id="2775926615040002048" at="284,0,285,27">
+        <var name="ex" id="2775926615040002040" />
+      </scope>
+      <scope id="2775926615040002044" at="284,36,285,27" />
+      <scope id="2775926615040001340" at="28,10,30,36" />
+      <scope id="2775926615040001363" at="41,0,43,0">
+        <var name="model" id="2775926615040001364" />
+      </scope>
+      <scope id="2775926615040001370" at="46,0,48,0">
+        <var name="model" id="2775926615040001371" />
+      </scope>
+      <scope id="2775926615040001426" at="63,11,65,37" />
+      <scope id="2775926615040001520" at="100,11,102,33" />
+      <scope id="2775926615040001614" at="133,11,135,33" />
+      <scope id="2775926615040001708" at="178,11,180,33" />
+      <scope id="2775926615040001883" at="239,11,241,33" />
+      <scope id="2775926615040001351" at="32,0,35,0" />
+      <scope id="2775926615040001357" at="35,0,38,0" />
+      <scope id="2775926615040668729" at="112,11,115,77" />
+      <scope id="2775926615040668668" at="145,11,148,77" />
+      <scope id="2775926615040667765" at="190,11,193,77" />
+      <scope id="2775926615040668520" at="251,11,254,76" />
+      <scope id="2775926615040665039" at="93,11,97,43" />
+      <scope id="2775926615040668409" at="126,11,130,43" />
+      <scope id="2775926615040666570" at="161,15,165,47" />
+      <scope id="2775926615040660220" at="169,15,173,47" />
+      <scope id="2775926615040690100" at="204,11,208,43" />
+      <scope id="2775926615040662796" at="222,15,226,47" />
+      <scope id="2775926615040665503" at="230,15,234,47" />
+      <scope id="2775926615040002011" at="275,52,279,9" />
+      <scope id="2775926615040001380" at="51,57,57,42" />
+      <scope id="2775926615040001419" at="61,7,67,11" />
+      <scope id="2775926615040002009" at="274,39,280,7">
+        <var name="pdesc" id="2775926615040002026" />
+      </scope>
+      <scope id="2775926615040001483" at="110,7,117,12" />
+      <scope id="2775926615040001577" at="143,7,150,12" />
+      <scope id="2775926615040001671" at="188,7,195,12" />
+      <scope id="2775926615040001796" at="249,7,256,12" />
+      <scope id="2775926615040001377" at="51,0,59,0">
+        <var name="model" id="2775926615040001378" />
+      </scope>
+      <scope id="2775926615040001440" at="75,45,87,15">
+        <var name="res" id="2775926615040001441" />
+      </scope>
+      <scope id="2775926615040001513" at="91,7,104,11" />
+      <scope id="2775926615040001607" at="124,7,137,11" />
+      <scope id="2775926615040001403" at="59,45,73,15">
+        <var name="res" id="2775926615040001404" />
+      </scope>
+      <scope id="2775926615040001439" at="75,0,89,0" />
+      <scope id="2775926615040001984" at="269,9,283,7">
+        <var name="machine" id="2775926615040001990" />
+        <var name="md" id="2775926615040001985" />
+        <var name="predicates" id="2775926615040002000" />
+        <var name="start" id="2775926615040002005" />
+      </scope>
+      <scope id="2775926615040001402" at="59,0,75,0" />
+      <scope id="2775926615040001725" at="159,11,175,16" />
+      <scope id="2775926615040001900" at="220,11,236,16" />
+      <scope id="2775926615040001701" at="157,7,182,11" />
+      <scope id="2775926615040001966" at="261,42,286,5">
+        <var name="registry" id="2775926615040001979" />
+      </scope>
+      <scope id="2775926615040001962" at="261,0,288,0">
+        <var name="args" id="2775926615040001963" />
+      </scope>
+      <scope id="2775926615040001475" at="89,47,120,15">
+        <var name="res" id="2775926615040001476" />
+      </scope>
+      <scope id="2775926615040001569" at="122,45,153,15">
+        <var name="res" id="2775926615040001570" />
+      </scope>
+      <scope id="2775926615040001474" at="89,0,122,0" />
+      <scope id="2775926615040001568" at="122,0,155,0" />
+      <scope id="2775926615040001826" at="202,7,243,11" />
+      <scope id="2775926615040001663" at="155,45,198,15">
+        <var name="res" id="2775926615040001664" />
+      </scope>
+      <scope id="2775926615040001662" at="155,0,200,0" />
+      <scope id="2775926615040001788" at="200,45,259,15">
+        <var name="res" id="2775926615040001789" />
+      </scope>
+      <scope id="2775926615040001787" at="200,0,261,0" />
+      <unit id="2775926615040001463" at="80,11,83,5" name="org.d0sl.examples.chess.ChessAII$2$2" />
+      <unit id="2775926615040001557" at="106,11,109,5" name="org.d0sl.examples.chess.ChessAII$3$3" />
+      <unit id="2775926615040001651" at="139,11,142,5" name="org.d0sl.examples.chess.ChessAII$4$3" />
+      <unit id="2775926615040001776" at="184,11,187,5" name="org.d0sl.examples.chess.ChessAII$5$3" />
+      <unit id="2775926615040001951" at="245,11,248,5" name="org.d0sl.examples.chess.ChessAII$6$3" />
+      <unit id="2775926615040001454" at="76,72,80,5" name="org.d0sl.examples.chess.ChessAII$2$1" />
+      <unit id="2775926615040001424" at="62,23,67,9" name="org.d0sl.examples.chess.ChessAII$1$1$1" />
+      <unit id="2775926615040668727" at="111,55,117,9" name="org.d0sl.examples.chess.ChessAII$3$1" />
+      <unit id="2775926615040668666" at="144,55,150,9" name="org.d0sl.examples.chess.ChessAII$4$1" />
+      <unit id="2775926615040667763" at="189,55,195,9" name="org.d0sl.examples.chess.ChessAII$5$1" />
+      <unit id="2775926615040668518" at="250,55,256,9" name="org.d0sl.examples.chess.ChessAII$6$1" />
+      <unit id="2775926615040665037" at="92,81,99,9" name="org.d0sl.examples.chess.ChessAII$3$2$1$1" />
+      <unit id="2775926615040668407" at="125,81,132,9" name="org.d0sl.examples.chess.ChessAII$4$2$1$1" />
+      <unit id="2775926615040666568" at="160,35,167,13" name="org.d0sl.examples.chess.ChessAII$5$2$1$1$1" />
+      <unit id="2775926615040660218" at="168,35,175,13" name="org.d0sl.examples.chess.ChessAII$5$2$1$1$2" />
+      <unit id="2775926615040690098" at="203,139,210,9" name="org.d0sl.examples.chess.ChessAII$6$2$1$1$1" />
+      <unit id="2775926615040662794" at="221,35,228,13" name="org.d0sl.examples.chess.ChessAII$6$2$2$1$1" />
+      <unit id="2775926615040665501" at="229,35,236,13" name="org.d0sl.examples.chess.ChessAII$6$2$2$1$2" />
+      <unit id="2775926615040001417" at="60,65,69,5" name="org.d0sl.examples.chess.ChessAII$1$1" />
+      <unit id="2775926615040001446" at="76,27,86,5" name="org.d0sl.examples.chess.ChessAII$2" />
+      <unit id="2775926615040661011" at="203,81,214,9" name="org.d0sl.examples.chess.ChessAII$6$2$1$1" />
+      <unit id="2775926615040001409" at="60,27,72,5" name="org.d0sl.examples.chess.ChessAII$1" />
+      <unit id="2775926615040001518" at="92,23,104,9" name="org.d0sl.examples.chess.ChessAII$3$2$1" />
+      <unit id="2775926615040001612" at="125,23,137,9" name="org.d0sl.examples.chess.ChessAII$4$2$1" />
+      <unit id="2775926615040001831" at="203,23,218,9" name="org.d0sl.examples.chess.ChessAII$6$2$1" />
+      <unit id="2775926615040001511" at="90,72,106,5" name="org.d0sl.examples.chess.ChessAII$3$2" />
+      <unit id="2775926615040001605" at="123,72,139,5" name="org.d0sl.examples.chess.ChessAII$4$2" />
+      <unit id="2775926615040001723" at="158,73,177,9" name="org.d0sl.examples.chess.ChessAII$5$2$1$1" />
+      <unit id="2775926615040001898" at="219,73,238,9" name="org.d0sl.examples.chess.ChessAII$6$2$2$1" />
+      <unit id="2775926615040001706" at="158,23,182,9" name="org.d0sl.examples.chess.ChessAII$5$2$1" />
+      <unit id="2775926615040001881" at="219,23,243,9" name="org.d0sl.examples.chess.ChessAII$6$2$2" />
+      <unit id="2775926615040001699" at="156,72,184,5" name="org.d0sl.examples.chess.ChessAII$5$2" />
+      <unit id="2775926615040001481" at="90,27,119,5" name="org.d0sl.examples.chess.ChessAII$3" />
+      <unit id="2775926615040001575" at="123,27,152,5" name="org.d0sl.examples.chess.ChessAII$4" />
+      <unit id="2775926615040001669" at="156,27,197,5" name="org.d0sl.examples.chess.ChessAII$5" />
+      <unit id="2775926615040001824" at="201,71,245,5" name="org.d0sl.examples.chess.ChessAII$6$2" />
+      <unit id="2775926615040001794" at="201,27,258,5" name="org.d0sl.examples.chess.ChessAII$6" />
+      <unit id="2775926615040001331" at="25,0,289,0" name="org.d0sl.examples.chess.ChessAII" />
+    </file>
+  </root>
+  <root nodeRef="r:a4d726b6-4316-42fc-bd72-1786604c84b3(org.d0sl.examples.chess)/2775926615040002478">
+    <file name="ChessDSL.java">
+      <node id="2775926615040002483" at="18,0,19,0" concept="4" trace="robot" />
+      <node id="2775926615040002492" at="19,45,20,42" concept="3" />
+      <node id="2775926615040002505" at="27,26,28,24" concept="10" />
+      <node id="2775926615040002518" at="36,43,37,26" concept="9" />
+      <node id="2775926615040002522" at="37,26,38,62" concept="9" />
+      <node id="2775926615040002532" at="39,32,40,41" concept="9" />
+      <node id="2775926615040002535" at="40,41,41,72" concept="3" />
+      <node id="2775926615040002546" at="42,5,43,15" concept="10" />
+      <node id="2775926615040002568" at="52,67,53,18" concept="10" />
+      <node id="2775926615040002571" at="54,5,55,17" concept="10" />
+      <node id="2775926615040002588" at="64,24,65,18" concept="10" />
+      <node id="2775926615040002598" at="67,51,68,18" concept="10" />
+      <node id="2775926615040002601" at="69,5,70,17" concept="10" />
+      <node id="2775926615040002618" at="79,24,80,18" concept="10" />
+      <node id="2775926615040002635" at="82,95,83,18" concept="10" />
+      <node id="2775926615040002652" at="85,95,86,18" concept="10" />
+      <node id="2775926615040002655" at="87,5,88,17" concept="10" />
+      <node id="2775926615040002679" at="97,85,98,18" concept="10" />
+      <node id="2775926615040002682" at="99,5,100,17" concept="10" />
+      <node id="2775926615040002487" at="19,0,22,0" concept="1" trace="ChessDSL#(Lorg/d0sl/machine/SemanticMachine;)V" />
+      <node id="2775926615040002560" at="51,58,54,5" concept="7" />
+      <node id="2775926615040002585" at="63,59,66,5" concept="7" />
+      <node id="2775926615040002591" at="66,5,69,5" concept="7" />
+      <node id="2775926615040002615" at="78,61,81,5" concept="7" />
+      <node id="2775926615040002621" at="81,5,84,5" concept="7" />
+      <node id="2775926615040002638" at="84,5,87,5" concept="7" />
+      <node id="2775926615040002669" at="96,62,99,5" concept="7" />
+      <node id="2775926615040002500" at="26,0,30,0" concept="8" trace="start#()Z" />
+      <node id="2775926615040002528" at="38,62,42,5" concept="6" />
+      <node id="2775926615040002551" at="50,0,57,0" concept="8" trace="onOneLine#(Lorg/d0sl/examples/chess/ChessQueen;Lorg/d0sl/examples/chess/ChessQueen;)Z" />
+      <node id="2775926615040002660" at="95,0,102,0" concept="8" trace="onOneDiagonal#(Lorg/d0sl/examples/chess/ChessQueen;Lorg/d0sl/examples/chess/ChessQueen;)Z" />
+      <node id="2775926615040002510" at="35,0,45,0" concept="8" trace="getQueens#(Lorg/d0sl/examples/chess/ChessBoard;)Lorg/d0sl/model/expression/List;" />
+      <node id="2775926615040002576" at="62,0,72,0" concept="8" trace="onNearLine#(Lorg/d0sl/examples/chess/ChessQueen;Lorg/d0sl/examples/chess/ChessQueen;)Z" />
+      <node id="2775926615040002606" at="77,0,90,0" concept="8" trace="onKnightMove#(Lorg/d0sl/examples/chess/ChessQueen;Lorg/d0sl/examples/chess/ChessQueen;)Z" />
+      <scope id="2775926615040002491" at="19,45,20,42" />
+      <scope id="2775926615040002504" at="27,26,28,24" />
+      <scope id="2775926615040002570" at="52,67,53,18" />
+      <scope id="2775926615040002590" at="64,24,65,18" />
+      <scope id="2775926615040002600" at="67,51,68,18" />
+      <scope id="2775926615040002620" at="79,24,80,18" />
+      <scope id="2775926615040002637" at="82,95,83,18" />
+      <scope id="2775926615040002654" at="85,95,86,18" />
+      <scope id="2775926615040002681" at="97,85,98,18" />
+      <scope id="2775926615040002530" at="39,32,41,72">
+        <var name="pos" id="2775926615040002531" />
+      </scope>
+      <scope id="2775926615040002487" at="19,0,22,0">
+        <var name="semantic" id="2775926615040002489" />
+      </scope>
+      <scope id="2775926615040002500" at="26,0,30,0" />
+      <scope id="2775926615040002528" at="38,62,42,5">
+        <var name="piece" id="2775926615040002542" />
+      </scope>
+      <scope id="2775926615040002559" at="51,58,55,17" />
+      <scope id="2775926615040002668" at="96,62,100,17" />
+      <scope id="2775926615040002516" at="36,43,43,15">
+        <var name="pieces" id="2775926615040002521" />
+        <var name="res" id="2775926615040002517" />
+      </scope>
+      <scope id="2775926615040002551" at="50,0,57,0">
+        <var name="q1" id="2775926615040002555" />
+        <var name="q2" id="2775926615040002557" />
+      </scope>
+      <scope id="2775926615040002584" at="63,59,70,17" />
+      <scope id="2775926615040002660" at="95,0,102,0">
+        <var name="q1" id="2775926615040002664" />
+        <var name="q2" id="2775926615040002666" />
+      </scope>
+      <scope id="2775926615040002510" at="35,0,45,0">
+        <var name="board" id="2775926615040002514" />
+      </scope>
+      <scope id="2775926615040002576" at="62,0,72,0">
+        <var name="q1" id="2775926615040002580" />
+        <var name="q2" id="2775926615040002582" />
+      </scope>
+      <scope id="2775926615040002614" at="78,61,88,17" />
+      <scope id="2775926615040002606" at="77,0,90,0">
+        <var name="q1" id="2775926615040002610" />
+        <var name="q2" id="2775926615040002612" />
+      </scope>
+      <unit id="2775926615040002478" at="16,0,103,0" name="org.d0sl.examples.chess.ChessDSL" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:15aa3eb0-a13f-48c4-89e1-4cf87cf32294(org.d0sl.examples.chess.chessboard)/2775926615039999853">
+    <file name="Player.java">
+      <unit id="2775926615039999853" at="9,0,13,0" name="org.d0sl.examples.chess.chessboard.Player" />
+    </file>
+  </root>
+  <root nodeRef="r:15aa3eb0-a13f-48c4-89e1-4cf87cf32294(org.d0sl.examples.chess.chessboard)/2775926615040002881">
+    <file name="Position.java">
+      <node id="2775926615040002883" at="11,0,12,0" concept="2" trace="row" />
+      <node id="2775926615040002887" at="12,0,13,0" concept="2" trace="column" />
+      <node id="2775926615040002898" at="13,40,14,19" concept="1" />
+      <node id="2775926615040002904" at="14,19,15,25" concept="1" />
+      <node id="2775926615040002916" at="17,35,18,25" concept="1" />
+      <node id="2775926615040002922" at="18,25,19,31" concept="1" />
+      <node id="2775926615040002931" at="21,26,22,18" concept="7" />
+      <node id="2775926615040002937" at="24,23,25,15" concept="7" />
+      <node id="2775926615040002950" at="29,20,30,18" concept="7" />
+      <node id="2775926615040002961" at="32,50,33,19" concept="7" />
+      <node id="2775926615040002965" at="34,5,35,37" concept="6" />
+      <node id="2775926615040002970" at="35,37,36,60" concept="7" />
+      <node id="2775926615040002983" at="39,25,40,37" concept="7" />
+      <node id="2775926615040002929" at="21,0,24,0" concept="5" trace="getColumn#()I" />
+      <node id="2775926615040002935" at="24,0,27,0" concept="5" trace="getRow#()I" />
+      <node id="2775926615040002946" at="28,35,31,5" concept="4" />
+      <node id="2775926615040002953" at="31,5,34,5" concept="4" />
+      <node id="2775926615040002891" at="13,0,17,0" concept="0" trace="Position#(II)V" />
+      <node id="2775926615040002911" at="17,0,21,0" concept="0" trace="Position#(Lorg/d0sl/examples/chess/chessboard/Position;)V" />
+      <node id="2775926615040002980" at="38,0,42,0" concept="5" trace="hashCode#()I" />
+      <node id="2775926615040002941" at="27,0,38,0" concept="5" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="2775926615040002930" at="21,26,22,18" />
+      <scope id="2775926615040002936" at="24,23,25,15" />
+      <scope id="2775926615040002952" at="29,20,30,18" />
+      <scope id="2775926615040002963" at="32,50,33,19" />
+      <scope id="2775926615040002982" at="39,25,40,37" />
+      <scope id="2775926615040002897" at="13,40,15,25" />
+      <scope id="2775926615040002915" at="17,35,19,31" />
+      <scope id="2775926615040002929" at="21,0,24,0" />
+      <scope id="2775926615040002935" at="24,0,27,0" />
+      <scope id="2775926615040002891" at="13,0,17,0">
+        <var name="column" id="2775926615040002895" />
+        <var name="row" id="2775926615040002893" />
+      </scope>
+      <scope id="2775926615040002911" at="17,0,21,0">
+        <var name="other" id="2775926615040002913" />
+      </scope>
+      <scope id="2775926615040002980" at="38,0,42,0" />
+      <scope id="2775926615040002945" at="28,35,36,60">
+        <var name="position" id="2775926615040002964" />
+      </scope>
+      <scope id="2775926615040002941" at="27,0,38,0">
+        <var name="o" id="2775926615040002943" />
+      </scope>
+      <unit id="2775926615040002881" at="10,0,43,0" name="org.d0sl.examples.chess.chessboard.Position" />
+    </file>
+  </root>
+  <root nodeRef="r:15aa3eb0-a13f-48c4-89e1-4cf87cf32294(org.d0sl.examples.chess.chessboard)/2775926615040003230">
+    <file name="Chessboard.java">
+      <node id="2775926615040003232" at="12,0,13,0" concept="2" trace="pieces" />
+      <node id="2775926615040003251" at="13,43,14,25" concept="1" />
+      <node id="2775926615040003261" at="16,32,17,18" concept="7" />
+      <node id="2775926615040003270" at="19,42,20,49" concept="6" />
+      <node id="2775926615040003310" at="23,35,24,38" concept="1" />
+      <node id="2775926615040003317" at="27,5,28,21" concept="7" />
+      <node id="2775926615040003245" at="13,0,16,0" concept="5" trace="setPieces#([[Lorg/d0sl/examples/chess/pieces/Piece;)V" />
+      <node id="2775926615040003259" at="16,0,19,0" concept="5" trace="getPieces#()[[Lorg/d0sl/examples/chess/pieces/Piece;" />
+      <node id="2775926615040003300" at="22,35,25,9" concept="4" />
+      <node id="2775926615040003287" at="21,33,26,7" concept="3" />
+      <node id="2775926615040003274" at="20,49,27,5" concept="3" />
+      <node id="2775926615040003267" at="19,0,30,0" concept="5" trace="getPieceList#()Ljava/util/ArrayList;" />
+      <scope id="2775926615040003250" at="13,43,14,25" />
+      <scope id="2775926615040003260" at="16,32,17,18" />
+      <scope id="2775926615040003309" at="23,35,24,38" />
+      <scope id="2775926615040003245" at="13,0,16,0">
+        <var name="pieces" id="2775926615040003246" />
+      </scope>
+      <scope id="2775926615040003259" at="16,0,19,0" />
+      <scope id="2775926615040003299" at="22,35,25,9" />
+      <scope id="2775926615040003286" at="21,33,26,7" />
+      <scope id="2775926615040003287" at="21,33,26,7">
+        <var name="y" id="2775926615040003288" />
+      </scope>
+      <scope id="2775926615040003274" at="20,49,27,5">
+        <var name="x" id="2775926615040003275" />
+      </scope>
+      <scope id="2775926615040003268" at="19,42,28,21">
+        <var name="pieceList" id="2775926615040003269" />
+      </scope>
+      <scope id="2775926615040003267" at="19,0,30,0" />
+      <unit id="2775926615040003230" at="11,0,31,0" name="org.d0sl.examples.chess.chessboard.Chessboard" />
+    </file>
+  </root>
+</debug-info>
+

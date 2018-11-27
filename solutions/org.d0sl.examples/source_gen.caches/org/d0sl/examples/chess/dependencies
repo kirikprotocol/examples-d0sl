@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.d0sl.examples.chess.ChessAII" file="ChessAII.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="org.d0sl.machine.LocalSemanticMachine" />
+    <classNode dependClassName="org.d0sl.machine.LocalSemanticRegistry" />
+    <classNode dependClassName="org.d0sl.machine.ModelDescriptor" />
+    <classNode dependClassName="org.d0sl.machine.PredicateDescriptor" />
+    <classNode dependClassName="org.d0sl.machine.SemanticException" />
+    <classNode dependClassName="org.d0sl.model.ArgumentDef" />
+    <classNode dependClassName="org.d0sl.model.ArgumentRef" />
+    <classNode dependClassName="org.d0sl.model.FunctionCall" />
+    <classNode dependClassName="org.d0sl.model.PredicateDef" />
+    <classNode dependClassName="org.d0sl.model.SemanticModel" />
+    <classNode dependClassName="org.d0sl.model.VariableDef" />
+    <classNode dependClassName="org.d0sl.model.VariableRef" />
+    <classNode dependClassName="org.d0sl.model.expression.And" />
+    <classNode dependClassName="org.d0sl.model.expression.ForAll" />
+    <classNode dependClassName="org.d0sl.model.expression.Logical" />
+    <classNode dependClassName="org.d0sl.model.expression.LogicalConstant" />
+    <classNode dependClassName="org.d0sl.model.expression.Not" />
+    <classNode dependClassName="org.d0sl.model.expression.Range" />
+    <classNode dependClassName="org.d0sl.model.expression.RangeRef" />
+  </dependency>
+  <dependency className="org.d0sl.examples.chess.ChessBoard" file="ChessBoard.java">
+    <classNode dependClassName="org.d0sl.examples.chess.chessboard.Chessboard" />
+    <classNode extendsClassName="org.d0sl.model.BaseObject" />
+  </dependency>
+  <dependency className="org.d0sl.examples.chess.ChessDSL" file="ChessDSL.java">
+    <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="org.d0sl.base.BaseFunction" />
+    <classNode dependClassName="org.d0sl.base.SemanticLibrary" />
+    <classNode dependClassName="org.d0sl.examples.chess.ChessBoard" />
+    <classNode dependClassName="org.d0sl.examples.chess.ChessQueen" />
+    <classNode dependClassName="org.d0sl.examples.chess.ChessRobot" />
+    <classNode dependClassName="org.d0sl.examples.chess.chessboard.Position" />
+    <classNode dependClassName="org.d0sl.examples.chess.pieces.Piece" />
+    <classNode dependClassName="org.d0sl.machine.SemanticMachine" />
+    <classNode dependClassName="org.d0sl.model.expression.List" />
+  </dependency>
+  <dependency className="org.d0sl.examples.chess.ChessQueen" file="ChessQueen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="org.d0sl.model.BaseObject" />
+  </dependency>
+  <dependency className="org.d0sl.examples.chess.ChessRobot" file="ChessRobot.java">
+    <classNode dependClassName="java.awt.event.ActionEvent" />
+    <classNode dependClassName="java.awt.event.ActionListener" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="java.util.Random" />
+    <classNode dependClassName="org.d0sl.examples.chess.ChessBoard" />
+    <classNode dependClassName="org.d0sl.examples.chess.chessboard.Chessboard" />
+    <classNode dependClassName="org.d0sl.examples.chess.chessboard.Player" />
+    <classNode dependClassName="org.d0sl.examples.chess.chessboard.Position" />
+    <classNode dependClassName="org.d0sl.examples.chess.pieces.Piece" />
+    <classNode dependClassName="org.d0sl.examples.chess.pieces.Queen" />
+    <classNode dependClassName="org.d0sl.examples.chess.view.ChessFrame" />
+    <classNode dependClassName="org.d0sl.examples.chess.view.ChessboardPanel" />
+    <classNode dependClassName="org.d0sl.examples.chess.view.NavigationPanel" />
+    <classNode dependClassName="org.d0sl.machine.SemanticException" />
+    <classNode dependClassName="org.d0sl.machine.SemanticMachine" />
+    <classNode dependClassName="org.d0sl.model.expression.Logical" />
+    <classNode dependClassName="org.d0sl.model.expression.LogicalConstant" />
+  </dependency>
+</dependenciesRoot>
+

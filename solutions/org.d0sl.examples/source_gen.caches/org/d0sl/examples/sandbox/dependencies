@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.d0sl.examples.sandbox.AutodromeAII" file="AutodromeAII.java">
+    <classNode dependClassName="java.lang.Double" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="org.d0sl.machine.LocalSemanticMachine" />
+    <classNode dependClassName="org.d0sl.machine.LocalSemanticRegistry" />
+    <classNode dependClassName="org.d0sl.machine.ModelDescriptor" />
+    <classNode dependClassName="org.d0sl.machine.PredicateDescriptor" />
+    <classNode dependClassName="org.d0sl.machine.SemanticException" />
+    <classNode dependClassName="org.d0sl.model.ArgumentDef" />
+    <classNode dependClassName="org.d0sl.model.ArgumentRef" />
+    <classNode dependClassName="org.d0sl.model.FunctionCall" />
+    <classNode dependClassName="org.d0sl.model.PredicateCall" />
+    <classNode dependClassName="org.d0sl.model.PredicateDef" />
+    <classNode dependClassName="org.d0sl.model.SemanticModel" />
+    <classNode dependClassName="org.d0sl.model.expression.And" />
+    <classNode dependClassName="org.d0sl.model.expression.Implication" />
+    <classNode dependClassName="org.d0sl.model.expression.Logical" />
+    <classNode dependClassName="org.d0sl.model.expression.LogicalConstant" />
+    <classNode dependClassName="org.d0sl.model.expression.Not" />
+    <classNode dependClassName="org.d0sl.model.expression.NumericConstant" />
+    <classNode dependClassName="org.d0sl.model.expression.Or" />
+    <classNode dependClassName="org.d0sl.model.expression.StringConstant" />
+  </dependency>
+  <dependency className="org.d0sl.examples.sandbox.ChessAII" file="ChessAII.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="org.d0sl.machine.LocalSemanticMachine" />
+    <classNode dependClassName="org.d0sl.machine.LocalSemanticRegistry" />
+    <classNode dependClassName="org.d0sl.machine.ModelDescriptor" />
+    <classNode dependClassName="org.d0sl.machine.PredicateDescriptor" />
+    <classNode dependClassName="org.d0sl.machine.SemanticException" />
+    <classNode dependClassName="org.d0sl.model.ArgumentDef" />
+    <classNode dependClassName="org.d0sl.model.ArgumentRef" />
+    <classNode dependClassName="org.d0sl.model.FunctionCall" />
+    <classNode dependClassName="org.d0sl.model.PredicateDef" />
+    <classNode dependClassName="org.d0sl.model.SemanticModel" />
+    <classNode dependClassName="org.d0sl.model.VariableDef" />
+    <classNode dependClassName="org.d0sl.model.VariableRef" />
+    <classNode dependClassName="org.d0sl.model.expression.And" />
+    <classNode dependClassName="org.d0sl.model.expression.ForAll" />
+    <classNode dependClassName="org.d0sl.model.expression.Logical" />
+    <classNode dependClassName="org.d0sl.model.expression.LogicalConstant" />
+    <classNode dependClassName="org.d0sl.model.expression.Not" />
+    <classNode dependClassName="org.d0sl.model.expression.Range" />
+    <classNode dependClassName="org.d0sl.model.expression.RangeRef" />
+  </dependency>
+</dependenciesRoot>
+
