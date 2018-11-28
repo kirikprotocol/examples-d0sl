@@ -24,7 +24,6 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="b661dea2-cc7c-4368-a587-a42592036196(org.d0sl.core)" version="0" />
     <module reference="236d0887-8fae-4dbd-9ce2-51286f3aa4ed(org.d0sl.examples)" version="0" />
-    <module reference="d6bfe138-7b55-48c9-bcc7-4e5040b1eaf3(org.d0sl.examples)" version="0" />
   </dependencyVersions>
 </solution>
 
