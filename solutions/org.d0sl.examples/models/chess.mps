@@ -3875,7 +3875,7 @@
                       <ref role="3cqZAo" node="2q64CM40KuV" resolve="registry" />
                     </node>
                     <node concept="liA8E" id="2q64CM43iEA" role="2OqNvi">
-                      <ref role="37wK5l" to="bgso:~LocalSemanticRegistry.getSemanticMachine(org.d0sl.machine.ModelDescriptor):org.d0sl.machine.SemanticMachine" resolve="getSemanticMachine" />
+                      <ref role="37wK5l" to="bgso:~LocalSemanticRegistry.getSemanticMachine(org.d0sl.machine.ModelDescriptor):org.d0sl.machine.LocalSemanticMachine" resolve="getSemanticMachine" />
                       <node concept="37vLTw" id="2q64CM43iEB" role="37wK5m">
                         <ref role="3cqZAo" node="2q64CM40Kv1" resolve="md" />
                       </node>
