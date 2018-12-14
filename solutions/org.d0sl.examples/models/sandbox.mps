@@ -346,7 +346,7 @@
       </node>
       <node concept="1UMGO$" id="34RjmaQYOsc" role="3IqRN$" />
       <node concept="3Irp9s" id="2v3NsJLaeXf" role="3IqRN$">
-        <property role="TrG5h" value="can move1" />
+        <property role="TrG5h" value="can move" />
         <node concept="1zm2fl" id="2v3NsJLaeXg" role="3Irp8X" />
         <node concept="1zlxZD" id="2v3NsJLaeXh" role="1zlniG">
           <property role="TrG5h" value="car" />
@@ -403,7 +403,7 @@
       </node>
       <node concept="1UMGO$" id="7qbvLgxGSRE" role="3IqRN$" />
       <node concept="3Irp9s" id="7qbvLgxGSTl" role="3IqRN$">
-        <property role="TrG5h" value="can move" />
+        <property role="TrG5h" value="can move4" />
         <node concept="1zlxZD" id="7qbvLgxGSUe" role="1zlniG">
           <property role="TrG5h" value="car" />
           <node concept="1lJkYq" id="7qbvLgxGT4H" role="1zlxRh">
@@ -704,10 +704,10 @@
           <node concept="e47DK" id="2v3NsJLjtmf" role="3dOMoI">
             <ref role="e47DL" node="2sS$Gh6o1FV" resolve="start" />
             <node concept="3pNif" id="2v3NsJLjtn5" role="e47DM">
-              <property role="3pNhO" value="12" />
+              <property role="3pNhO" value="10" />
             </node>
             <node concept="3pNif" id="2v3NsJLjtnJ" role="e47DM">
-              <property role="3pNhO" value="250" />
+              <property role="3pNhO" value="300" />
             </node>
           </node>
         </node>
@@ -735,7 +735,7 @@
       </node>
       <node concept="1UMGO$" id="4cYJ9uBQjPp" role="3IqRN$" />
       <node concept="3Irp9s" id="37$CGxAYska" role="3IqRN$">
-        <property role="TrG5h" value="check board0" />
+        <property role="TrG5h" value="check board1" />
         <node concept="1zm2fl" id="37$CGxAYskb" role="3Irp8X" />
         <node concept="1zlxZD" id="37$CGxAYskc" role="1zlniG">
           <property role="TrG5h" value="board" />
@@ -747,7 +747,7 @@
       <node concept="1UMGO$" id="37$CGxAYshZ" role="3IqRN$" />
       <node concept="1UMGO$" id="37$CGxAYsj4" role="3IqRN$" />
       <node concept="3Irp9s" id="5$9SXBUkDsh" role="3IqRN$">
-        <property role="TrG5h" value="check board1" />
+        <property role="TrG5h" value="check board2" />
         <node concept="1zlxZD" id="5$9SXBUkDsC" role="1zlniG">
           <property role="TrG5h" value="board" />
           <node concept="1lJkYq" id="5$9SXBUkDsM" role="1zlxRh">
@@ -834,7 +834,7 @@
       <node concept="1UMGO$" id="2F7n3A6zxEA" role="3IqRN$" />
       <node concept="1UMGO$" id="2F7n3A6zxFq" role="3IqRN$" />
       <node concept="3Irp9s" id="12KVXIcwzEp" role="3IqRN$">
-        <property role="TrG5h" value="check board3" />
+        <property role="TrG5h" value="check board" />
         <node concept="1zlxZD" id="12KVXIcwzEq" role="1zlniG">
           <property role="TrG5h" value="board" />
           <node concept="1lJkYq" id="12KVXIcwzEr" role="1zlxRh">
@@ -890,7 +890,7 @@
       </node>
       <node concept="1UMGO$" id="12KVXIct_pf" role="3IqRN$" />
       <node concept="3Irp9s" id="37$CGxAYsmy" role="3IqRN$">
-        <property role="TrG5h" value="check board" />
+        <property role="TrG5h" value="check board4" />
         <node concept="1zlxZD" id="37$CGxAYsmz" role="1zlniG">
           <property role="TrG5h" value="board" />
           <node concept="1lJkYq" id="37$CGxAYsm$" role="1zlxRh">
