@@ -2,7 +2,7 @@
 <model ref="r:489c149b-27aa-4653-b561-f2f65868daaa(org.d0sl.examples.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="33179490-6db2-4c80-bd28-66b0152ec77c" name="SemanticLanguage" version="0" />
   </languages>
   <imports />
@@ -346,7 +346,7 @@
       </node>
       <node concept="1UMGO$" id="34RjmaQYOsc" role="3IqRN$" />
       <node concept="3Irp9s" id="2v3NsJLaeXf" role="3IqRN$">
-        <property role="TrG5h" value="can move" />
+        <property role="TrG5h" value="can move1" />
         <node concept="1zm2fl" id="2v3NsJLaeXg" role="3Irp8X" />
         <node concept="1zlxZD" id="2v3NsJLaeXh" role="1zlniG">
           <property role="TrG5h" value="car" />
@@ -403,7 +403,7 @@
       </node>
       <node concept="1UMGO$" id="7qbvLgxGSRE" role="3IqRN$" />
       <node concept="3Irp9s" id="7qbvLgxGSTl" role="3IqRN$">
-        <property role="TrG5h" value="can move4" />
+        <property role="TrG5h" value="can move" />
         <node concept="1zlxZD" id="7qbvLgxGSUe" role="1zlniG">
           <property role="TrG5h" value="car" />
           <node concept="1lJkYq" id="7qbvLgxGT4H" role="1zlxRh">
@@ -707,7 +707,7 @@
               <property role="3pNhO" value="10" />
             </node>
             <node concept="3pNif" id="2v3NsJLjtnJ" role="e47DM">
-              <property role="3pNhO" value="300" />
+              <property role="3pNhO" value="600" />
             </node>
           </node>
         </node>
