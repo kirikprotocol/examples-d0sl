@@ -9,10 +9,10 @@
   <imports>
     <import index="7hnx" ref="r:a726387b-edf2-4dff-ae56-dc5ca01b8bf5(org.d0sl.examples.auto.drome)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="hrsg" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.base(org.d0sl.core/)" />
     <import index="62ga" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.model(org.d0sl.core/)" />
     <import index="bgso" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.machine(org.d0sl.core/)" />
     <import index="7lss" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.model.expression(org.d0sl.core/)" />
+    <import index="o00z" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.domain(org.d0sl.core/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -128,9 +128,9 @@
     <property role="1EXbeo" value="false" />
     <node concept="3Tm1VV" id="2q64CM40J_j" role="1B3o_S" />
     <node concept="2AHcQZ" id="2q64CM40J_k" role="2AJF6D">
-      <ref role="2AI5Lk" to="hrsg:~SemanticLibrary" resolve="SemanticLibrary" />
+      <ref role="2AI5Lk" to="o00z:~DomainModel" resolve="DomainModel" />
       <node concept="2B6LJw" id="2q64CM40J_l" role="2B76xF">
-        <ref role="2B6OnR" to="hrsg:~SemanticLibrary.name()" resolve="name" />
+        <ref role="2B6OnR" to="o00z:~DomainModel.name()" resolve="name" />
         <node concept="Xl_RD" id="2q64CM40J_m" role="2B70Vg">
           <property role="Xl_RC" value="Autodrome" />
         </node>
@@ -203,9 +203,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40J_C" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40J_D" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40J_E" role="2B70Vg">
             <property role="Xl_RC" value="road sign allows move" />
           </node>
@@ -241,9 +241,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40J_O" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40J_P" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40J_Q" role="2B70Vg">
             <property role="Xl_RC" value="road sign allows turn left" />
           </node>
@@ -279,9 +279,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JA0" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JA1" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JA2" role="2B70Vg">
             <property role="Xl_RC" value="road sign allows turn right" />
           </node>
@@ -317,9 +317,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JAc" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JAd" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JAe" role="2B70Vg">
             <property role="Xl_RC" value="wall ahead" />
           </node>
@@ -355,9 +355,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JAo" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JAp" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JAq" role="2B70Vg">
             <property role="Xl_RC" value="road sign" />
           </node>
@@ -393,9 +393,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JA$" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JA_" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JAA" role="2B70Vg">
             <property role="Xl_RC" value="car ahead" />
           </node>
@@ -431,9 +431,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JAK" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JAL" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JAM" role="2B70Vg">
             <property role="Xl_RC" value="head to head" />
           </node>
@@ -469,9 +469,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JAW" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JAX" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JAY" role="2B70Vg">
             <property role="Xl_RC" value="wall left" />
           </node>
@@ -507,9 +507,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JB8" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JB9" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JBa" role="2B70Vg">
             <property role="Xl_RC" value="wall right" />
           </node>
@@ -545,9 +545,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JBk" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JBl" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JBm" role="2B70Vg">
             <property role="Xl_RC" value="interference right" />
           </node>
@@ -583,9 +583,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JBw" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JBx" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JBy" role="2B70Vg">
             <property role="Xl_RC" value="interference left" />
           </node>
@@ -621,9 +621,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JBG" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JBH" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JBI" role="2B70Vg">
             <property role="Xl_RC" value="interference ahead" />
           </node>
@@ -659,9 +659,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JBS" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JBT" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JBU" role="2B70Vg">
             <property role="Xl_RC" value="add wall" />
           </node>
@@ -703,9 +703,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JC7" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JC8" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JC9" role="2B70Vg">
             <property role="Xl_RC" value="add road sign" />
           </node>
@@ -757,9 +757,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40JCp" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40JCq" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40JCr" role="2B70Vg">
             <property role="Xl_RC" value="start" />
           </node>

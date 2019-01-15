@@ -12,12 +12,12 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="jdaw" ref="r:15aa3eb0-a13f-48c4-89e1-4cf87cf32294(org.d0sl.examples.chess.chessboard)" />
     <import index="qjpe" ref="r:d3444c6a-e51e-4e32-9351-b1c66e1686dc(org.d0sl.examples.chess.pieces)" />
-    <import index="hrsg" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.base(org.d0sl.core/)" />
     <import index="62ga" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.model(org.d0sl.core/)" />
     <import index="bgso" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.machine(org.d0sl.core/)" />
     <import index="7lss" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.model.expression(org.d0sl.core/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
+    <import index="o00z" ref="b661dea2-cc7c-4368-a587-a42592036196/java:org.d0sl.domain(org.d0sl.core/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -1118,9 +1118,9 @@
     <property role="1EXbeo" value="false" />
     <node concept="3Tm1VV" id="2q64CM40KAJ" role="1B3o_S" />
     <node concept="2AHcQZ" id="2q64CM40KAK" role="2AJF6D">
-      <ref role="2AI5Lk" to="hrsg:~SemanticLibrary" resolve="SemanticLibrary" />
+      <ref role="2AI5Lk" to="o00z:~DomainModel" resolve="DomainModel" />
       <node concept="2B6LJw" id="2q64CM40KAL" role="2B76xF">
-        <ref role="2B6OnR" to="hrsg:~SemanticLibrary.name()" resolve="name" />
+        <ref role="2B6OnR" to="o00z:~DomainModel.name()" resolve="name" />
         <node concept="Xl_RD" id="2q64CM40KAM" role="2B70Vg">
           <property role="Xl_RC" value="ChessDSL" />
         </node>
@@ -1181,9 +1181,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40KB5" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40KB6" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40KB7" role="2B70Vg">
             <property role="Xl_RC" value="start" />
           </node>
@@ -1221,9 +1221,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40KBf" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40KBg" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40KBh" role="2B70Vg">
             <property role="Xl_RC" value="get queens" />
           </node>
@@ -1376,9 +1376,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40KBS" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40KBT" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40KBU" role="2B70Vg">
             <property role="Xl_RC" value="on one line" />
           </node>
@@ -1477,9 +1477,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40KCh" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40KCi" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40KCj" role="2B70Vg">
             <property role="Xl_RC" value="on near line" />
           </node>
@@ -1587,9 +1587,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40KCJ" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40KCK" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40KCL" role="2B70Vg">
             <property role="Xl_RC" value="on knight move" />
           </node>
@@ -1791,9 +1791,9 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="2AHcQZ" id="2q64CM40KD_" role="2AJF6D">
-        <ref role="2AI5Lk" to="hrsg:~BaseFunction" resolve="BaseFunction" />
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
         <node concept="2B6LJw" id="2q64CM40KDA" role="2B76xF">
-          <ref role="2B6OnR" to="hrsg:~BaseFunction.name()" resolve="name" />
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
           <node concept="Xl_RD" id="2q64CM40KDB" role="2B70Vg">
             <property role="Xl_RC" value="on one diagonal" />
           </node>

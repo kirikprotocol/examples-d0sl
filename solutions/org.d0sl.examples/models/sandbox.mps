@@ -15,6 +15,10 @@
     <language id="33179490-6db2-4c80-bd28-66b0152ec77c" name="SemanticLanguage">
       <concept id="5125628472001484671" name="SemanticLanguage.structure.NumericConstant" flags="ng" index="3pNif">
         <property id="5125628472001484676" name="value" index="3pNhO" />
+        <child id="5125628472001532656" name="fraction" index="3pB40" />
+      </concept>
+      <concept id="5125628472003093025" name="SemanticLanguage.structure.FractionConstant" flags="ng" index="3vC7h">
+        <property id="5125628472003093026" name="fraction" index="3vC7i" />
       </concept>
       <concept id="5125628472007286910" name="SemanticLanguage.structure.NumericType" flags="ng" index="3JCee" />
       <concept id="3736865676534609094" name="SemanticLanguage.structure.DomainEmptyLine" flags="ng" index="24Vvte" />
@@ -40,9 +44,16 @@
         <child id="3225294796961911391" name="original" index="2w5xVo" />
       </concept>
       <concept id="2073504467208085352" name="SemanticLanguage.structure.LogicalType" flags="nn" index="2$QgSV" />
+      <concept id="2073504467207869132" name="SemanticLanguage.structure.BinaryMathExpression" flags="ng" index="2$QGev">
+        <child id="2073504467207935094" name="left" index="2$QWk_" />
+        <child id="2073504467207935096" name="right" index="2$QWkF" />
+      </concept>
       <concept id="2073504467207935108" name="SemanticLanguage.structure.NotExpression" flags="ng" index="2$QWnn" />
       <concept id="2073504467208490058" name="SemanticLanguage.structure.OrExpression" flags="ng" index="2$SPOp" />
       <concept id="2073504467208490057" name="SemanticLanguage.structure.AndExpression" flags="ng" index="2$SPOq" />
+      <concept id="2073504467208672407" name="SemanticLanguage.structure.ArithmeticExpression" flags="nn" index="2$Vwn4">
+        <property id="2073504467208672490" name="operator" index="2$VwmT" />
+      </concept>
       <concept id="2073504467209504078" name="SemanticLanguage.structure.StringType" flags="ng" index="2$WXgt" />
       <concept id="2073504467209342143" name="SemanticLanguage.structure.VarDeclaration" flags="ng" index="2$X5RG">
         <child id="2073504467209342228" name="initializer" index="2$X5L7" />
@@ -82,6 +93,9 @@
       <concept id="2865360063750502835" name="SemanticLanguage.structure.Range" flags="ng" index="3mGVhS" />
       <concept id="2865360063751303359" name="SemanticLanguage.structure.RangeReference" flags="ng" index="3mJRPO">
         <reference id="2865360063751303362" name="range" index="3mJRO9" />
+      </concept>
+      <concept id="4954022563421910182" name="SemanticLanguage.structure.ComparisonExpression" flags="ng" index="1qM4Rw">
+        <property id="4954022563421910183" name="operator" index="1qM4Rx" />
       </concept>
       <concept id="5069851822860934581" name="SemanticLanguage.structure.StringConstant" flags="ng" index="1z9qrE">
         <property id="5069851822860934587" name="value" index="1z9qr$" />
@@ -346,7 +360,7 @@
       </node>
       <node concept="1UMGO$" id="34RjmaQYOsc" role="3IqRN$" />
       <node concept="3Irp9s" id="2v3NsJLaeXf" role="3IqRN$">
-        <property role="TrG5h" value="can move" />
+        <property role="TrG5h" value="can move1" />
         <node concept="1zm2fl" id="2v3NsJLaeXg" role="3Irp8X" />
         <node concept="1zlxZD" id="2v3NsJLaeXh" role="1zlniG">
           <property role="TrG5h" value="car" />
@@ -403,7 +417,7 @@
       </node>
       <node concept="1UMGO$" id="7qbvLgxGSRE" role="3IqRN$" />
       <node concept="3Irp9s" id="7qbvLgxGSTl" role="3IqRN$">
-        <property role="TrG5h" value="can move4" />
+        <property role="TrG5h" value="can move" />
         <node concept="1zlxZD" id="7qbvLgxGSUe" role="1zlniG">
           <property role="TrG5h" value="car" />
           <node concept="1lJkYq" id="7qbvLgxGT4H" role="1zlxRh">
@@ -1082,6 +1096,246 @@
     </node>
     <node concept="24Vvte" id="3fs0SyRootm" role="2oCo7h" />
     <node concept="24Vvte" id="3fs0SyRf_KT" role="2oCo7h" />
+  </node>
+  <node concept="2M3LeA" id="78lBxcAaBvx">
+    <property role="TrG5h" value="MathTest" />
+    <node concept="3IqRW4" id="78lBxcAaBvy" role="1UMHDP">
+      <node concept="2M3fE7" id="78lBxcAaCac" role="3IqRN$">
+        <property role="1xsJ6A" value="org.d0sl.domain.MathUtil" />
+        <ref role="2M3fE0" node="7_UXj8GStil" resolve="Math" />
+      </node>
+      <node concept="1UMGO$" id="78lBxcAaCa0" role="3IqRN$" />
+      <node concept="1b7Vn$" id="78lBxcAaSxD" role="3IqRN$">
+        <property role="1b7Vny" value="Runs all tests" />
+      </node>
+      <node concept="3Irp9s" id="78lBxcAaQoo" role="3IqRN$">
+        <property role="TrG5h" value="start" />
+        <node concept="3dOMoJ" id="78lBxcAaQoI" role="3Irp8X">
+          <node concept="3IoBA6" id="78lBxcAaQoT" role="3dOMoI">
+            <ref role="3Io$gq" node="78lBxcAaBxI" resolve="test1" />
+          </node>
+          <node concept="3IoBA6" id="3AoPDvdtrzB" role="3dOMoI">
+            <ref role="3Io$gq" node="3AoPDvdtryH" resolve="test2" />
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="78lBxcAaQo5" role="3IqRN$" />
+      <node concept="1b7Vn$" id="78lBxcAaBxV" role="3IqRN$">
+        <property role="1b7Vny" value="Testing for sin &amp; cos" />
+      </node>
+      <node concept="3Irp9s" id="78lBxcAaBxI" role="3IqRN$">
+        <property role="TrG5h" value="test1" />
+        <node concept="3dOMoJ" id="78lBxcAaBy2" role="3Irp8X">
+          <node concept="2$X5RG" id="5dbvt0ugRTl" role="3dOMoI">
+            <property role="TrG5h" value="угол" />
+            <node concept="3pNif" id="5dbvt0ugRYE" role="2$X5L7">
+              <property role="3pNhO" value="35" />
+            </node>
+          </node>
+          <node concept="2$X5RG" id="5dbvt0ugS23" role="3dOMoI">
+            <property role="TrG5h" value="косинус" />
+            <node concept="e47DK" id="5dbvt0ugS2p" role="2$X5L7">
+              <ref role="e47DL" node="3fs0SyRf_OQ" resolve="cos" />
+              <node concept="2$X7mM" id="5dbvt0ugS3p" role="e47DM">
+                <ref role="2$X7mL" node="5dbvt0ugRTl" resolve="угол" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$X5RG" id="5dbvt0ugS3S" role="3dOMoI">
+            <property role="TrG5h" value="синус" />
+            <node concept="e47DK" id="5dbvt0ugS4o" role="2$X5L7">
+              <ref role="e47DL" node="3fs0SyRf_NY" resolve="sin" />
+              <node concept="2$X7mM" id="5dbvt0ugS4C" role="e47DM">
+                <ref role="2$X7mL" node="5dbvt0ugRTl" resolve="угол" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$X5RG" id="5dbvt0ugS57" role="3dOMoI">
+            <property role="TrG5h" value="сумма квадратов" />
+            <node concept="2$Vwn4" id="5dbvt0ugSdu" role="2$X5L7">
+              <property role="2$VwmT" value="+" />
+              <node concept="e47DK" id="5dbvt0ugSey" role="2$QWkF">
+                <ref role="e47DL" node="3fs0SyRf_QF" resolve="pow" />
+                <node concept="2$X7mM" id="5dbvt0ugSgp" role="e47DM">
+                  <ref role="2$X7mL" node="5dbvt0ugS3S" resolve="синус" />
+                </node>
+                <node concept="3pNif" id="5dbvt0ugSio" role="e47DM">
+                  <property role="3pNhO" value="2" />
+                </node>
+              </node>
+              <node concept="e47DK" id="5dbvt0ugSdw" role="2$QWk_">
+                <ref role="e47DL" node="3fs0SyRf_QF" resolve="pow" />
+                <node concept="2$X7mM" id="5dbvt0ugSdx" role="e47DM">
+                  <ref role="2$X7mL" node="5dbvt0ugS23" resolve="косинус" />
+                </node>
+                <node concept="3pNif" id="5dbvt0ugSdy" role="e47DM">
+                  <property role="3pNhO" value="2" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="3AoPDvdtqmU" role="3dOMoI" />
+          <node concept="1b7Vn$" id="3AoPDvdtq2_" role="3dOMoI">
+            <property role="1b7Vny" value="учитывая особенности библиотеки java.lang.Math" />
+          </node>
+          <node concept="1b7Vn$" id="3AoPDvdtrhy" role="3dOMoI">
+            <property role="1b7Vny" value="и погрешность вычисления при переводе грудусов в радианы" />
+          </node>
+          <node concept="1qM4Rw" id="5dbvt0ugSkG" role="3dOMoI">
+            <property role="1qM4Rx" value="&lt;=" />
+            <node concept="2$X7mM" id="5dbvt0ugSnj" role="2w5wbM">
+              <ref role="2$X7mL" node="5dbvt0ugS57" resolve="сумма квадратов" />
+            </node>
+            <node concept="3pNif" id="5dbvt0ugSot" role="2w5wbZ">
+              <property role="3pNhO" value="1" />
+            </node>
+          </node>
+          <node concept="1qM4Rw" id="3AoPDvdtnFF" role="3dOMoI">
+            <property role="1qM4Rx" value="&gt;=" />
+            <node concept="2$X7mM" id="3AoPDvdtnMg" role="2w5wbM">
+              <ref role="2$X7mL" node="5dbvt0ugS57" resolve="сумма квадратов" />
+            </node>
+            <node concept="3pNif" id="3AoPDvdtnN$" role="2w5wbZ">
+              <property role="3pNhO" value="0" />
+              <node concept="3vC7h" id="3AoPDvdtnOS" role="3pB40">
+                <property role="3vC7i" value="999999" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="3AoPDvdtrwc" role="3IqRN$" />
+      <node concept="1b7Vn$" id="3AoPDvdtrxr" role="3IqRN$">
+        <property role="1b7Vny" value="Testing pow and sqrt" />
+      </node>
+      <node concept="3Irp9s" id="3AoPDvdtryH" role="3IqRN$">
+        <property role="TrG5h" value="test2" />
+        <node concept="3dOMoJ" id="3AoPDvdtrzS" role="3Irp8X">
+          <node concept="2$X5RG" id="3AoPDvdtr$g" role="3dOMoI">
+            <property role="TrG5h" value="основание" />
+            <node concept="3pNif" id="3AoPDvdtr$$" role="2$X5L7">
+              <property role="3pNhO" value="2" />
+            </node>
+          </node>
+          <node concept="2$X5RG" id="3AoPDvdtr_0" role="3dOMoI">
+            <property role="TrG5h" value="квадрат" />
+            <node concept="e47DK" id="3AoPDvdtrDF" role="2$X5L7">
+              <ref role="e47DL" node="3fs0SyRf_QF" resolve="pow" />
+              <node concept="2$X7mM" id="3AoPDvdtrFp" role="e47DM">
+                <ref role="2$X7mL" node="3AoPDvdtr$g" resolve="основание" />
+              </node>
+              <node concept="3pNif" id="3AoPDvdtrIC" role="e47DM">
+                <property role="3pNhO" value="2" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$X5RG" id="3AoPDvdtrAY" role="3dOMoI">
+            <property role="TrG5h" value="куб" />
+            <node concept="e47DK" id="3AoPDvdtrKv" role="2$X5L7">
+              <ref role="e47DL" node="3fs0SyRf_QF" resolve="pow" />
+              <node concept="2$X7mM" id="3AoPDvdtrKw" role="e47DM">
+                <ref role="2$X7mL" node="3AoPDvdtr$g" resolve="основание" />
+              </node>
+              <node concept="3pNif" id="3AoPDvdtrKx" role="e47DM">
+                <property role="3pNhO" value="3" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$X5RG" id="3AoPDvdtrCv" role="3dOMoI">
+            <property role="TrG5h" value="корень" />
+            <node concept="e47DK" id="3AoPDvdtrMA" role="2$X5L7">
+              <ref role="e47DL" node="3fs0SyRf_Mr" resolve="sqrt" />
+              <node concept="2$X7mM" id="3AoPDvdtrN5" role="e47DM">
+                <ref role="2$X7mL" node="3AoPDvdtr_0" resolve="квадрат" />
+              </node>
+            </node>
+          </node>
+          <node concept="1qM4Rw" id="3AoPDvdtrNG" role="3dOMoI">
+            <property role="1qM4Rx" value="==" />
+            <node concept="2$X7mM" id="3AoPDvdtrOq" role="2w5wbM">
+              <ref role="2$X7mL" node="3AoPDvdtr_0" resolve="квадрат" />
+            </node>
+            <node concept="3pNif" id="3AoPDvdtrOD" role="2w5wbZ">
+              <property role="3pNhO" value="4" />
+            </node>
+          </node>
+          <node concept="1qM4Rw" id="3AoPDvdtrTm" role="3dOMoI">
+            <property role="1qM4Rx" value="==" />
+            <node concept="2$X7mM" id="3AoPDvdtrW5" role="2w5wbM">
+              <ref role="2$X7mL" node="3AoPDvdtrAY" resolve="куб" />
+            </node>
+            <node concept="3pNif" id="3AoPDvdtrTo" role="2w5wbZ">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="1qM4Rw" id="3AoPDvdts0S" role="3dOMoI">
+            <property role="1qM4Rx" value="==" />
+            <node concept="2$X7mM" id="3AoPDvdts6D" role="2w5wbM">
+              <ref role="2$X7mL" node="3AoPDvdtrCv" resolve="корень" />
+            </node>
+            <node concept="2$X7mM" id="3AoPDvdvMmR" role="2w5wbZ">
+              <ref role="2$X7mL" node="3AoPDvdtr$g" resolve="основание" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="78lBxcAaWYq" role="3IqRN$" />
+    </node>
+  </node>
+  <node concept="2oCoeD" id="7_UXj8GStil">
+    <property role="TrG5h" value="Math" />
+    <node concept="1b7Vn$" id="3fs0SyRf_M2" role="2oCo7h">
+      <property role="1b7Vny" value="Math library" />
+    </node>
+    <node concept="24Vvte" id="3fs0SyRf_M6" role="2oCo7h" />
+    <node concept="1b7Vn$" id="3fs0SyRf_Mf" role="2oCo7h">
+      <property role="1b7Vny" value="Square root" />
+    </node>
+    <node concept="eqlvg" id="3fs0SyRf_Mr" role="2oCo7h">
+      <property role="TrG5h" value="sqrt" />
+      <node concept="3JCee" id="3fs0SyRf_Na" role="eqlvi" />
+      <node concept="1zlxZD" id="3fs0SyRf_MP" role="eqlvh">
+        <property role="TrG5h" value="value" />
+        <node concept="3JCee" id="3fs0SyRf_N5" role="1zlxRh" />
+      </node>
+    </node>
+    <node concept="24Vvte" id="3fs0SyRf_Nh" role="2oCo7h" />
+    <node concept="1b7Vn$" id="3fs0SyRf_NA" role="2oCo7h">
+      <property role="1b7Vny" value="Sinus and Cosinus" />
+    </node>
+    <node concept="eqlvg" id="3fs0SyRf_NY" role="2oCo7h">
+      <property role="TrG5h" value="sin" />
+      <node concept="3JCee" id="3fs0SyRf_OJ" role="eqlvi" />
+      <node concept="1zlxZD" id="3fs0SyRf_Oq" role="eqlvh">
+        <property role="TrG5h" value="value" />
+        <node concept="3JCee" id="3fs0SyRf_OE" role="1zlxRh" />
+      </node>
+    </node>
+    <node concept="eqlvg" id="3fs0SyRf_OQ" role="2oCo7h">
+      <property role="TrG5h" value="cos" />
+      <node concept="3JCee" id="3fs0SyRf_OR" role="eqlvi" />
+      <node concept="1zlxZD" id="3fs0SyRf_OS" role="eqlvh">
+        <property role="TrG5h" value="value" />
+        <node concept="3JCee" id="3fs0SyRf_OT" role="1zlxRh" />
+      </node>
+    </node>
+    <node concept="24Vvte" id="3fs0SyRf_Pm" role="2oCo7h" />
+    <node concept="1b7Vn$" id="3fs0SyRf_PZ" role="2oCo7h">
+      <property role="1b7Vny" value="Power function" />
+    </node>
+    <node concept="eqlvg" id="3fs0SyRf_QF" role="2oCo7h">
+      <property role="TrG5h" value="pow" />
+      <node concept="3JCee" id="3fs0SyRf_QG" role="eqlvi" />
+      <node concept="1zlxZD" id="3fs0SyRf_QH" role="eqlvh">
+        <property role="TrG5h" value="value" />
+        <node concept="3JCee" id="3fs0SyRf_QI" role="1zlxRh" />
+      </node>
+      <node concept="1zlxZD" id="3fs0SyRf_RM" role="eqlvh">
+        <property role="TrG5h" value="power" />
+        <node concept="3JCee" id="3fs0SyRf_S4" role="1zlxRh" />
+      </node>
+    </node>
+    <node concept="24Vvte" id="3fs0SyRf_LN" role="2oCo7h" />
   </node>
 </model>
 
