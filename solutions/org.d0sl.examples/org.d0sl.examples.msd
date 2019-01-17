@@ -4,17 +4,24 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
+    <modelRoot contentPath="C:/Users/gav/ownCloud/SemanticTrelloBoard/out/artifacts/SemanticTrelloBoard_jar/SemanticTrelloBoard.jar!/" type="java_classes">
+      <sourceRoot location="." />
+    </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="C:/Users/gav/ownCloud/SemanticTrelloBoard/out/artifacts/SemanticTrelloBoard_jar/SemanticTrelloBoard.jar" />
+  </stubModelEntries>
   <sourcePath>
     <source path="${module}/resources" />
   </sourcePath>
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="true">b661dea2-cc7c-4368-a587-a42592036196(org.d0sl.core)</dependency>
+    <dependency reexport="false">328cff05-8bf6-4d07-bdbd-64db97be0974(TestD0SL)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:33179490-6db2-4c80-bd28-66b0152ec77c:SemanticLanguage" version="0" />
-    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
+    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" version="2" />
     <language slang="l:4caf0310-491e-41f5-8a9b-2006b3a94898:jetbrains.mps.execution.util" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
@@ -22,6 +29,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
+    <module reference="328cff05-8bf6-4d07-bdbd-64db97be0974(TestD0SL)" version="0" />
     <module reference="b661dea2-cc7c-4368-a587-a42592036196(org.d0sl.core)" version="0" />
     <module reference="236d0887-8fae-4dbd-9ce2-51286f3aa4ed(org.d0sl.examples)" version="0" />
   </dependencyVersions>
