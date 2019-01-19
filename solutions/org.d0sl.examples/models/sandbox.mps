@@ -1389,6 +1389,214 @@
         </node>
       </node>
       <node concept="1UMGO$" id="6mT$eBZmFqD" role="3IqRN$" />
+      <node concept="3Irp9s" id="6mT$eBZnSRh" role="3IqRN$">
+        <property role="TrG5h" value="parse row calculations" />
+        <node concept="3dOMoJ" id="6mT$eBZnSUH" role="3Irp8X">
+          <node concept="2$X5RG" id="6mT$eBZnTn$" role="3dOMoI">
+            <property role="TrG5h" value="markS" />
+            <node concept="eBqkK" id="6mT$eBZnTXC" role="2$X5L7">
+              <ref role="eBqkL" node="6mT$eBZnSUd" resolve="mark sum" />
+            </node>
+          </node>
+          <node concept="2$X5RG" id="6mT$eBZnUgI" role="3dOMoI">
+            <property role="TrG5h" value="mark" />
+            <node concept="eBqkK" id="6mT$eBZnV0q" role="2$X5L7">
+              <ref role="eBqkL" node="6mT$eBZnSUu" resolve="markArg" />
+            </node>
+          </node>
+          <node concept="2$X5RG" id="6mT$eBZnWzv" role="3dOMoI">
+            <property role="TrG5h" value="markC" />
+            <node concept="eBqkK" id="6mT$eBZnX1F" role="2$X5L7">
+              <ref role="eBqkL" node="6mT$eBZnVUE" resolve="mark count" />
+            </node>
+          </node>
+          <node concept="1EIqaT" id="6mT$eBZnVjy" role="3dOMoI">
+            <node concept="2$X7mM" id="6mT$eBZnVj$" role="1EIrV5">
+              <ref role="2$X7mL" node="6mT$eBZnTn$" resolve="markS" />
+            </node>
+            <node concept="2$Vwn4" id="6mT$eBZnVAU" role="1EIrV7">
+              <property role="2$VwmT" value="+" />
+              <node concept="2$X7mM" id="6mT$eBZnVKO" role="2$QWkF">
+                <ref role="2$X7mL" node="6mT$eBZnUgI" resolve="mark" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZnVAW" role="2$QWk_">
+                <ref role="2$X7mL" node="6mT$eBZnTn$" resolve="markS" />
+              </node>
+            </node>
+          </node>
+          <node concept="1EIqaT" id="6mT$eBZnXYP" role="3dOMoI">
+            <node concept="2$X7mM" id="6mT$eBZnXYR" role="1EIrV5">
+              <ref role="2$X7mL" node="6mT$eBZnWzv" resolve="markC" />
+            </node>
+            <node concept="2$Vwn4" id="6mT$eBZnYtz" role="1EIrV7">
+              <property role="2$VwmT" value="+" />
+              <node concept="3pNif" id="6mT$eBZnYBV" role="2$QWkF">
+                <property role="3pNhO" value="1" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZnYt_" role="2$QWk_">
+                <ref role="2$X7mL" node="6mT$eBZnWzv" resolve="markC" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZnSUd" role="1zlniG">
+          <property role="TrG5h" value="mark sum" />
+          <node concept="3JCee" id="6mT$eBZnSUp" role="1zlxRh" />
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZnSUu" role="1zlniG">
+          <property role="TrG5h" value="markArg" />
+          <node concept="3JCee" id="6mT$eBZnSUC" role="1zlxRh" />
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZnVUE" role="1zlniG">
+          <property role="TrG5h" value="mark count" />
+          <node concept="3JCee" id="6mT$eBZnVUW" role="1zlxRh" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="6mT$eBZnSLw" role="3IqRN$" />
+      <node concept="3Irp9s" id="6mT$eBZooxy" role="3IqRN$">
+        <property role="TrG5h" value="do if subject math" />
+        <node concept="3dOMoJ" id="6mT$eBZoo_F" role="3Irp8X">
+          <node concept="2$X5RG" id="6mT$eBZooLh" role="3dOMoI">
+            <property role="TrG5h" value="student name" />
+            <node concept="eBqkK" id="6mT$eBZooM6" role="2$X5L7">
+              <ref role="eBqkL" node="6mT$eBZoo$S" resolve="student name" />
+            </node>
+          </node>
+          <node concept="2$X5RG" id="6mT$eBZopFY" role="3dOMoI">
+            <property role="TrG5h" value="mark" />
+            <node concept="eBqkK" id="6mT$eBZopGL" role="2$X5L7">
+              <ref role="eBqkL" node="6mT$eBZoo_q" resolve="mark" />
+            </node>
+          </node>
+          <node concept="2$X5RG" id="6mT$eBZooK1" role="3dOMoI">
+            <property role="TrG5h" value="mark sumA" />
+            <node concept="e47DK" id="6mT$eBZngan" role="2$X5L7">
+              <ref role="e47DL" node="6mT$eBZnb8L" resolve="get numeric value" />
+              <node concept="1z9qrE" id="6mT$eBZngeM" role="e47DM">
+                <node concept="2$X7mM" id="6mT$eBZooMg" role="pvbxO">
+                  <ref role="2$X7mL" node="6mT$eBZooLh" resolve="student name" />
+                </node>
+                <node concept="1z9qrE" id="6mT$eBZngwF" role="pvbxO">
+                  <property role="1z9qr$" value="markSum" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2$X5RG" id="6mT$eBZooWU" role="3dOMoI">
+            <property role="TrG5h" value="mark countA" />
+            <node concept="e47DK" id="6mT$eBZngR3" role="2$X5L7">
+              <ref role="e47DL" node="6mT$eBZnb8L" resolve="get numeric value" />
+              <node concept="1z9qrE" id="6mT$eBZngVn" role="e47DM">
+                <node concept="2$X7mM" id="6mT$eBZnh4u" role="pvbxO">
+                  <ref role="2$X7mL" node="6mT$eBZooLh" resolve="student name" />
+                </node>
+                <node concept="1z9qrE" id="6mT$eBZnhdE" role="pvbxO">
+                  <property role="1z9qr$" value="markCount" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="6mT$eBZop8f" role="3dOMoI" />
+          <node concept="2$X5RG" id="6mT$eBZopE5" role="3dOMoI">
+            <property role="TrG5h" value="mark mean" />
+            <node concept="e47DK" id="6mT$eBZo4Up" role="2$X5L7">
+              <ref role="e47DL" node="6mT$eBZo4$n" resolve="calculate mean mark" />
+              <node concept="2$X7mM" id="6mT$eBZopH1" role="e47DM">
+                <ref role="2$X7mL" node="6mT$eBZopFY" resolve="mark" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZo5o1" role="e47DM">
+                <ref role="2$X7mL" node="6mT$eBZooK1" resolve="mark sumA" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZo5FR" role="e47DM">
+                <ref role="2$X7mL" node="6mT$eBZooWU" resolve="mark countA" />
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="6mT$eBZopDh" role="3dOMoI" />
+          <node concept="2$X5RG" id="6mT$eBZorpV" role="3dOMoI">
+            <property role="TrG5h" value="mark sum" />
+            <node concept="e47DK" id="6mT$eBZoayT" role="2$X5L7">
+              <ref role="e47DL" node="6mT$eBZo9$4" resolve="plus" />
+              <node concept="2$X7mM" id="6mT$eBZorri" role="e47DM">
+                <ref role="2$X7mL" node="6mT$eBZopFY" resolve="mark" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZob0N" role="e47DM">
+                <ref role="2$X7mL" node="6mT$eBZooK1" resolve="mark sumA" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$X5RG" id="6mT$eBZorAO" role="3dOMoI">
+            <property role="TrG5h" value="mark count" />
+            <node concept="e47DK" id="6mT$eBZobZm" role="2$X5L7">
+              <ref role="e47DL" node="6mT$eBZo9$4" resolve="plus" />
+              <node concept="1z9qrE" id="6mT$eBZoj2X" role="e47DM">
+                <property role="1z9qr$" value="1" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZohLC" role="e47DM">
+                <ref role="2$X7mL" node="6mT$eBZooWU" resolve="mark countA" />
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="6mT$eBZorMT" role="3dOMoI" />
+          <node concept="e47DK" id="6mT$eBZnm3w" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZnb9W" resolve="set numeric value" />
+            <node concept="1z9qrE" id="6mT$eBZnmaa" role="e47DM">
+              <node concept="2$X7mM" id="6mT$eBZnmlF" role="pvbxO">
+                <ref role="2$X7mL" node="6mT$eBZooLh" resolve="student name" />
+              </node>
+              <node concept="1z9qrE" id="6mT$eBZnmxh" role="pvbxO">
+                <property role="1z9qr$" value="markCount" />
+              </node>
+            </node>
+            <node concept="2$X7mM" id="6mT$eBZocWl" role="e47DM">
+              <ref role="2$X7mL" node="6mT$eBZorAO" resolve="mark count" />
+            </node>
+          </node>
+          <node concept="e47DK" id="6mT$eBZnjkj" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZnb9W" resolve="set numeric value" />
+            <node concept="1z9qrE" id="6mT$eBZnjqm" role="e47DM">
+              <node concept="2$X7mM" id="6mT$eBZnj$Z" role="pvbxO">
+                <ref role="2$X7mL" node="6mT$eBZooLh" resolve="student name" />
+              </node>
+              <node concept="1z9qrE" id="6mT$eBZnjJH" role="pvbxO">
+                <property role="1z9qr$" value="markSum" />
+              </node>
+            </node>
+            <node concept="2$X7mM" id="6mT$eBZod6$" role="e47DM">
+              <ref role="2$X7mL" node="6mT$eBZorpV" resolve="mark sum" />
+            </node>
+          </node>
+          <node concept="e47DK" id="6mT$eBZnfyJ" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZnb9W" resolve="set numeric value" />
+            <node concept="1z9qrE" id="6mT$eBZnfBe" role="e47DM">
+              <node concept="2$X7mM" id="6mT$eBZniNy" role="pvbxO">
+                <ref role="2$X7mL" node="6mT$eBZooLh" resolve="student name" />
+              </node>
+              <node concept="1z9qrE" id="6mT$eBZniY0" role="pvbxO">
+                <property role="1z9qr$" value="markMean" />
+              </node>
+            </node>
+            <node concept="2$X7mM" id="6mT$eBZnj3p" role="e47DM">
+              <ref role="2$X7mL" node="6mT$eBZopE5" resolve="mark mean" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="6mT$eBZosxS" role="3dOMoI" />
+          <node concept="3dOM_R" id="6mT$eBZosx9" role="3dOMoI" />
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZoo$S" role="1zlniG">
+          <property role="TrG5h" value="student name" />
+          <node concept="2$WXgt" id="6mT$eBZoo_6" role="1zlxRh" />
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZoo_b" role="1zlniG">
+          <property role="TrG5h" value="subject" />
+          <node concept="2$WXgt" id="6mT$eBZoo_l" role="1zlxRh" />
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZoo_q" role="1zlniG">
+          <property role="TrG5h" value="mark" />
+          <node concept="3JCee" id="6mT$eBZoo_A" role="1zlxRh" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="6mT$eBZoouf" role="3IqRN$" />
       <node concept="3Irp9s" id="swT7VcWOY2" role="3IqRN$">
         <property role="TrG5h" value="parse row" />
         <node concept="1zlxZD" id="swT7VcWOYJ" role="1zlniG">
@@ -1441,76 +1649,26 @@
             </node>
           </node>
           <node concept="3dOM_R" id="6mT$eBZneKl" role="3dOMoI" />
-          <node concept="2$X5RG" id="6mT$eBZnfX1" role="3dOMoI">
-            <property role="TrG5h" value="mark sum" />
-            <node concept="e47DK" id="6mT$eBZngan" role="2$X5L7">
-              <ref role="e47DL" node="6mT$eBZnb8L" resolve="get numeric value" />
-              <node concept="1z9qrE" id="6mT$eBZngeM" role="e47DM">
-                <node concept="2$X7mM" id="6mT$eBZngnF" role="pvbxO">
-                  <ref role="2$X7mL" node="6mT$eBZnbyP" resolve="student name" />
-                </node>
-                <node concept="1z9qrE" id="6mT$eBZngwF" role="pvbxO">
-                  <property role="1z9qr$" value="markSum" />
-                </node>
+          <node concept="2C1uTT" id="6mT$eBZomWj" role="3dOMoI">
+            <node concept="1qM4Rw" id="6mT$eBZoni6" role="2C1uS7">
+              <property role="1qM4Rx" value="==" />
+              <node concept="2$X7mM" id="6mT$eBZoni7" role="2w5wbM">
+                <ref role="2$X7mL" node="6mT$eBZnc5T" resolve="subject" />
+              </node>
+              <node concept="1z9qrE" id="6mT$eBZonsz" role="2w5wbZ">
+                <property role="1z9qr$" value="math" />
               </node>
             </node>
-          </node>
-          <node concept="2$X5RG" id="6mT$eBZng_r" role="3dOMoI">
-            <property role="TrG5h" value="mark count" />
-            <node concept="e47DK" id="6mT$eBZngR3" role="2$X5L7">
-              <ref role="e47DL" node="6mT$eBZnb8L" resolve="get numeric value" />
-              <node concept="1z9qrE" id="6mT$eBZngVn" role="e47DM">
-                <node concept="2$X7mM" id="6mT$eBZnh4u" role="pvbxO">
-                  <ref role="2$X7mL" node="6mT$eBZnbyP" resolve="student name" />
-                </node>
-                <node concept="1z9qrE" id="6mT$eBZnhdE" role="pvbxO">
-                  <property role="1z9qr$" value="markCount" />
-                </node>
+            <node concept="3IoBA6" id="6mT$eBZoqzh" role="2C1uS3">
+              <ref role="3Io$gq" node="6mT$eBZooxy" resolve="do if subject math" />
+              <node concept="2$X7mM" id="6mT$eBZoqSM" role="1z1ptF">
+                <ref role="2$X7mL" node="6mT$eBZnbyP" resolve="student name" />
               </node>
-            </node>
-          </node>
-          <node concept="3dOM_R" id="6mT$eBZnhiq" role="3dOMoI" />
-          <node concept="1EIqaT" id="6mT$eBZnk0U" role="3dOMoI">
-            <node concept="2$X7mM" id="6mT$eBZnkcP" role="1EIrV5">
-              <ref role="2$X7mL" node="6mT$eBZnfX1" resolve="mark sum" />
-            </node>
-            <node concept="2$Vwn4" id="6mT$eBZnknV" role="1EIrV7">
-              <property role="2$VwmT" value="+" />
-              <node concept="2$X7mM" id="6mT$eBZnktD" role="2$QWkF">
+              <node concept="2$X7mM" id="6mT$eBZor3v" role="1z1ptF">
+                <ref role="2$X7mL" node="6mT$eBZnc5T" resolve="subject" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZor3N" role="1z1ptF">
                 <ref role="2$X7mL" node="6mT$eBZnckY" resolve="mark" />
-              </node>
-              <node concept="2$X7mM" id="6mT$eBZnknX" role="2$QWk_">
-                <ref role="2$X7mL" node="6mT$eBZnfX1" resolve="mark sum" />
-              </node>
-            </node>
-          </node>
-          <node concept="1EIqaT" id="6mT$eBZnkK$" role="3dOMoI">
-            <node concept="2$X7mM" id="6mT$eBZnkKA" role="1EIrV5">
-              <ref role="2$X7mL" node="6mT$eBZng_r" resolve="mark count" />
-            </node>
-            <node concept="2$Vwn4" id="6mT$eBZnl2U" role="1EIrV7">
-              <property role="2$VwmT" value="+" />
-              <node concept="3pNif" id="6mT$eBZnl8U" role="2$QWkF">
-                <property role="3pNhO" value="1" />
-              </node>
-              <node concept="2$X7mM" id="6mT$eBZnl2W" role="2$QWk_">
-                <ref role="2$X7mL" node="6mT$eBZng_r" resolve="mark count" />
-              </node>
-            </node>
-          </node>
-          <node concept="2$X5RG" id="6mT$eBZnhEW" role="3dOMoI">
-            <property role="TrG5h" value="mark mean" />
-            <node concept="2$Vwn4" id="6mT$eBZnikw" role="2$X5L7">
-              <property role="2$VwmT" value="/" />
-              <node concept="3JC2e" id="6mT$eBZnipG" role="2$QWkF">
-                <node concept="2$X7mM" id="6mT$eBZnlLu" role="3JC2f">
-                  <ref role="2$X7mL" node="6mT$eBZng_r" resolve="mark count" />
-                </node>
-              </node>
-              <node concept="3JC2e" id="6mT$eBZniky" role="2$QWk_">
-                <node concept="2$X7mM" id="6mT$eBZnlqz" role="3JC2f">
-                  <ref role="2$X7mL" node="6mT$eBZnfX1" resolve="mark sum" />
-                </node>
               </node>
             </node>
           </node>
@@ -1518,85 +1676,91 @@
           <node concept="1b7Vn$" id="6mT$eBZnqrr" role="3dOMoI">
             <property role="1b7Vny" value="I need to do this thing, because when I use if with check all, it says &lt;var&gt; is out of search scope" />
           </node>
-          <node concept="2C1uTT" id="6mT$eBZneet" role="3dOMoI">
-            <node concept="1qM4Rw" id="6mT$eBZneml" role="2C1uS7">
-              <property role="1qM4Rx" value="==" />
-              <node concept="2$X7mM" id="6mT$eBZnemm" role="2w5wbM">
-                <ref role="2$X7mL" node="6mT$eBZnc5T" resolve="subject" />
-              </node>
-              <node concept="1z9qrE" id="6mT$eBZneqf" role="2w5wbZ">
-                <property role="1z9qr$" value="math" />
-              </node>
-            </node>
-            <node concept="e47DK" id="6mT$eBZnm3w" role="2C1uS3">
-              <ref role="e47DL" node="6mT$eBZnb9W" resolve="set numeric value" />
-              <node concept="1z9qrE" id="6mT$eBZnmaa" role="e47DM">
-                <node concept="2$X7mM" id="6mT$eBZnmlF" role="pvbxO">
-                  <ref role="2$X7mL" node="6mT$eBZnbyP" resolve="student name" />
-                </node>
-                <node concept="1z9qrE" id="6mT$eBZnmxh" role="pvbxO">
-                  <property role="1z9qr$" value="markCount" />
-                </node>
-              </node>
-              <node concept="2$X7mM" id="6mT$eBZnmH2" role="e47DM">
-                <ref role="2$X7mL" node="6mT$eBZng_r" resolve="mark count" />
-              </node>
-            </node>
-          </node>
-          <node concept="2C1uTT" id="6mT$eBZnoqT" role="3dOMoI">
-            <node concept="1qM4Rw" id="6mT$eBZnoBK" role="2C1uS7">
-              <property role="1qM4Rx" value="==" />
-              <node concept="2$X7mM" id="6mT$eBZnoBL" role="2w5wbM">
-                <ref role="2$X7mL" node="6mT$eBZnc5T" resolve="subject" />
-              </node>
-              <node concept="1z9qrE" id="6mT$eBZnoHM" role="2w5wbZ">
-                <property role="1z9qr$" value="math" />
-              </node>
-            </node>
-            <node concept="e47DK" id="6mT$eBZnjkj" role="2C1uS3">
-              <ref role="e47DL" node="6mT$eBZnb9W" resolve="set numeric value" />
-              <node concept="1z9qrE" id="6mT$eBZnjqm" role="e47DM">
-                <node concept="2$X7mM" id="6mT$eBZnj$Z" role="pvbxO">
-                  <ref role="2$X7mL" node="6mT$eBZnbyP" resolve="student name" />
-                </node>
-                <node concept="1z9qrE" id="6mT$eBZnjJH" role="pvbxO">
-                  <property role="1z9qr$" value="markSum" />
-                </node>
-              </node>
-              <node concept="2$X7mM" id="6mT$eBZnlR9" role="e47DM">
-                <ref role="2$X7mL" node="6mT$eBZnfX1" resolve="mark sum" />
-              </node>
-            </node>
-          </node>
-          <node concept="2C1uTT" id="6mT$eBZnpvy" role="3dOMoI">
-            <node concept="1qM4Rw" id="6mT$eBZnpGU" role="2C1uS7">
-              <property role="1qM4Rx" value="==" />
-              <node concept="2$X7mM" id="6mT$eBZnpGV" role="2w5wbM">
-                <ref role="2$X7mL" node="6mT$eBZnc5T" resolve="subject" />
-              </node>
-              <node concept="1z9qrE" id="6mT$eBZnpNa" role="2w5wbZ">
-                <property role="1z9qr$" value="math" />
-              </node>
-            </node>
-            <node concept="e47DK" id="6mT$eBZnfyJ" role="2C1uS3">
-              <ref role="e47DL" node="6mT$eBZnb9W" resolve="set numeric value" />
-              <node concept="1z9qrE" id="6mT$eBZnfBe" role="e47DM">
-                <node concept="2$X7mM" id="6mT$eBZniNy" role="pvbxO">
-                  <ref role="2$X7mL" node="6mT$eBZnbyP" resolve="student name" />
-                </node>
-                <node concept="1z9qrE" id="6mT$eBZniY0" role="pvbxO">
-                  <property role="1z9qr$" value="markMean" />
-                </node>
-              </node>
-              <node concept="2$X7mM" id="6mT$eBZnj3p" role="e47DM">
-                <ref role="2$X7mL" node="6mT$eBZnhEW" resolve="mark mean" />
-              </node>
-            </node>
-          </node>
           <node concept="3dOM_R" id="6mT$eBZncFZ" role="3dOMoI" />
         </node>
       </node>
       <node concept="1UMGO$" id="swT7VcWOXp" role="3IqRN$" />
+      <node concept="3Irp9s" id="6mT$eBZoxtK" role="3IqRN$">
+        <property role="TrG5h" value="do if not parsed" />
+        <node concept="3dOMoJ" id="6mT$eBZoxxd" role="3Irp8X">
+          <node concept="2$X5RG" id="6mT$eBZoxyO" role="3dOMoI">
+            <property role="TrG5h" value="out row" />
+            <node concept="e47DK" id="6mT$eBZnyWm" role="2$X5L7">
+              <ref role="e47DL" node="6mT$eBZnymA" resolve="create row" />
+              <node concept="3pNif" id="6mT$eBZnzaG" role="e47DM">
+                <property role="3pNhO" value="2" />
+              </node>
+            </node>
+          </node>
+          <node concept="e47DK" id="6mT$eBZn_cq" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZmBge" resolve="addString" />
+            <node concept="2$X7mM" id="6mT$eBZn_kd" role="e47DM">
+              <ref role="2$X7mL" node="6mT$eBZoxyO" resolve="out row" />
+            </node>
+            <node concept="eBqkK" id="6mT$eBZoyyt" role="e47DM">
+              <ref role="eBqkL" node="6mT$eBZoxya" resolve="student name" />
+            </node>
+          </node>
+          <node concept="e47DK" id="6mT$eBZnD_w" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZmBiP" resolve="addNumeric" />
+            <node concept="2$X7mM" id="6mT$eBZnDIT" role="e47DM">
+              <ref role="2$X7mL" node="6mT$eBZoxyO" resolve="out row" />
+            </node>
+            <node concept="eBqkK" id="6mT$eBZoyGL" role="e47DM">
+              <ref role="eBqkL" node="6mT$eBZoxyv" resolve="mark mean" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="6mT$eBZoyR7" role="3dOMoI" />
+          <node concept="e47DK" id="6mT$eBZozcj" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZnyiT" resolve="addList" />
+            <node concept="eBqkK" id="6mT$eBZozn4" role="e47DM">
+              <ref role="eBqkL" node="6mT$eBZoxxo" resolve="out range" />
+            </node>
+            <node concept="2$X7mM" id="6mT$eBZozGs" role="e47DM">
+              <ref role="2$X7mL" node="6mT$eBZoxyO" resolve="out row" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="6mT$eBZoxHo" role="3dOMoI" />
+          <node concept="e47DK" id="6mT$eBZoTHz" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZnbaj" resolve="set string value" />
+            <node concept="1z9qrE" id="6mT$eBZoTTi" role="e47DM">
+              <node concept="eBqkK" id="6mT$eBZoUgb" role="pvbxO">
+                <ref role="eBqkL" node="6mT$eBZoxya" resolve="student name" />
+              </node>
+              <node concept="1z9qrE" id="6mT$eBZoUB9" role="pvbxO">
+                <property role="1z9qr$" value="parsed" />
+              </node>
+            </node>
+            <node concept="1z9qrE" id="6mT$eBZoUYf" role="e47DM">
+              <property role="1z9qr$" value="true" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="6mT$eBZoTmr" role="3dOMoI" />
+          <node concept="e47DK" id="6mT$eBZoE$8" role="3dOMoI">
+            <ref role="e47DL" node="swT7VcWJ4$" resolve="say" />
+            <node concept="eBqkK" id="6mT$eBZoEJy" role="e47DM">
+              <ref role="eBqkL" node="6mT$eBZoxxo" resolve="out range" />
+            </node>
+          </node>
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZoxxo" role="1zlniG">
+          <property role="TrG5h" value="out range" />
+          <node concept="3mEW3e" id="6mT$eBZoxxy" role="1zlxRh">
+            <node concept="3mEW3e" id="6mT$eBZoxxH" role="3mFZbo">
+              <node concept="2$WXgt" id="6mT$eBZoxxX" role="3mFZbo" />
+            </node>
+          </node>
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZoxya" role="1zlniG">
+          <property role="TrG5h" value="student name" />
+          <node concept="2$WXgt" id="6mT$eBZoxyq" role="1zlxRh" />
+        </node>
+        <node concept="1zlxZD" id="6mT$eBZoxyv" role="1zlniG">
+          <property role="TrG5h" value="mark mean" />
+          <node concept="3JCee" id="6mT$eBZoxyJ" role="1zlxRh" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="6mT$eBZoxmX" role="3IqRN$" />
       <node concept="3Irp9s" id="6mT$eBZntoy" role="3IqRN$">
         <property role="TrG5h" value="parse stored means" />
         <node concept="3dOMoJ" id="6mT$eBZntr2" role="3Irp8X">
@@ -1618,69 +1782,61 @@
               </node>
             </node>
           </node>
-          <node concept="3dOM_R" id="6mT$eBZnvnN" role="3dOMoI" />
-          <node concept="2$X5RG" id="6mT$eBZnvFI" role="3dOMoI">
-            <property role="TrG5h" value="parsed" />
-            <node concept="e47DK" id="6mT$eBZnwcK" role="2$X5L7">
+          <node concept="2$X5RG" id="6mT$eBZnBCK" role="3dOMoI">
+            <property role="TrG5h" value="mark mean" />
+            <node concept="e47DK" id="6mT$eBZnC3b" role="2$X5L7">
               <ref role="e47DL" node="6mT$eBZnb8L" resolve="get numeric value" />
-              <node concept="1z9qrE" id="6mT$eBZnwjm" role="e47DM">
-                <node concept="2$X7mM" id="6mT$eBZnwwD" role="pvbxO">
+              <node concept="1z9qrE" id="6mT$eBZnCbN" role="e47DM">
+                <node concept="2$X7mM" id="6mT$eBZnCt8" role="pvbxO">
                   <ref role="2$X7mL" node="6mT$eBZnu09" resolve="student name" />
                 </node>
-                <node concept="1z9qrE" id="6mT$eBZnwI1" role="pvbxO">
+                <node concept="1z9qrE" id="6mT$eBZnCIy" role="pvbxO">
+                  <property role="1z9qr$" value="markMean" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2$X5RG" id="6mT$eBZnvFI" role="3dOMoI">
+            <property role="TrG5h" value="parsed" />
+            <node concept="e47DK" id="6mT$eBZoQRa" role="2$X5L7">
+              <ref role="e47DL" node="6mT$eBZnb9D" resolve="get string value" />
+              <node concept="1z9qrE" id="6mT$eBZoR2u" role="e47DM">
+                <node concept="2$X7mM" id="6mT$eBZoRpb" role="pvbxO">
+                  <ref role="2$X7mL" node="6mT$eBZnu09" resolve="student name" />
+                </node>
+                <node concept="1z9qrE" id="6mT$eBZoRJZ" role="pvbxO">
                   <property role="1z9qr$" value="parsed" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3dOM_R" id="6mT$eBZnwOR" role="3dOMoI" />
-          <node concept="2$X5RG" id="6mT$eBZnyAP" role="3dOMoI">
-            <property role="TrG5h" value="out row" />
-            <node concept="e47DK" id="6mT$eBZnyWm" role="2$X5L7">
-              <ref role="e47DL" node="6mT$eBZnymA" resolve="create row" />
-              <node concept="3pNif" id="6mT$eBZnzaG" role="e47DM">
-                <property role="3pNhO" value="2" />
+          <node concept="3dOM_R" id="6mT$eBZnyo9" role="3dOMoI" />
+          <node concept="2C1uTT" id="6mT$eBZo_KB" role="3dOMoI">
+            <node concept="3IoBA6" id="6mT$eBZoAA6" role="2C1uS3">
+              <ref role="3Io$gq" node="6mT$eBZoxtK" resolve="do if not parsed" />
+              <node concept="eBqkK" id="6mT$eBZoAKP" role="1z1ptF">
+                <ref role="eBqkL" node="6mT$eBZnygI" resolve="out range" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZoALc" role="1z1ptF">
+                <ref role="2$X7mL" node="6mT$eBZnu09" resolve="student name" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZoALw" role="1z1ptF">
+                <ref role="2$X7mL" node="6mT$eBZnBCK" resolve="mark mean" />
               </node>
             </node>
-          </node>
-          <node concept="3dOM_R" id="6mT$eBZnyo9" role="3dOMoI" />
-          <node concept="2C1uTT" id="6mT$eBZnx2L" role="3dOMoI">
-            <node concept="1qM4Rw" id="6mT$eBZnxgN" role="2C1uS7">
+            <node concept="1qM4Rw" id="6mT$eBZpaDR" role="2C1uS7">
               <property role="1qM4Rx" value="!=" />
-              <node concept="2$X7mM" id="6mT$eBZnxuK" role="2w5wbM">
+              <node concept="2$X7mM" id="6mT$eBZpaDS" role="2w5wbM">
                 <ref role="2$X7mL" node="6mT$eBZnvFI" resolve="parsed" />
               </node>
-              <node concept="3pNif" id="6mT$eBZny2F" role="2w5wbZ">
-                <property role="3pNhO" value="1" />
-              </node>
-            </node>
-            <node concept="2$SPOq" id="6mT$eBZnzUH" role="2C1uS3">
-              <node concept="e47DK" id="6mT$eBZnzUI" role="2w5wbM">
-                <ref role="e47DL" node="6mT$eBZnyiT" resolve="addList" />
-                <node concept="eBqkK" id="6mT$eBZnzUJ" role="e47DM">
-                  <ref role="eBqkL" node="6mT$eBZnygI" resolve="out range" />
-                </node>
-                <node concept="2$X7mM" id="6mT$eBZnzUK" role="e47DM">
-                  <ref role="2$X7mL" node="6mT$eBZnyAP" resolve="out row" />
-                </node>
-              </node>
-              <node concept="e47DK" id="6mT$eBZn$2Z" role="2w5wbZ">
-                <ref role="e47DL" node="6mT$eBZnb9W" resolve="set numeric value" />
-                <node concept="1z9qrE" id="6mT$eBZn$37" role="e47DM">
-                  <node concept="2$X7mM" id="6mT$eBZn$hi" role="pvbxO">
-                    <ref role="2$X7mL" node="6mT$eBZnu09" resolve="student name" />
-                  </node>
-                  <node concept="1z9qrE" id="6mT$eBZn$vy" role="pvbxO">
-                    <property role="1z9qr$" value="parsed" />
-                  </node>
-                </node>
-                <node concept="3pNif" id="6mT$eBZn$I1" role="e47DM">
-                  <property role="3pNhO" value="1" />
-                </node>
+              <node concept="1z9qrE" id="6mT$eBZpb11" role="2w5wbZ">
+                <property role="1z9qr$" value="true" />
               </node>
             </node>
           </node>
-          <node concept="3dOM_R" id="6mT$eBZnvuo" role="3dOMoI" />
+          <node concept="e47DK" id="6mT$eBZoIzd" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZnIRM" resolve="print hashmaps" />
+          </node>
         </node>
         <node concept="1zlxZD" id="6mT$eBZntqx" role="1zlniG">
           <property role="TrG5h" value="rowArg" />
@@ -1706,7 +1862,7 @@
             <node concept="e47DK" id="6mT$eBZmVKO" role="2$X5L7">
               <ref role="e47DL" node="swT7VcWJ67" resolve="get range as list of lists" />
               <node concept="1z9qrE" id="6mT$eBZmVMu" role="e47DM">
-                <property role="1z9qr$" value="Sheet1!A1:H" />
+                <property role="1z9qr$" value="Sheet1!A2:H" />
               </node>
             </node>
           </node>
@@ -1743,8 +1899,26 @@
               </node>
             </node>
           </node>
-          <node concept="3dOM_R" id="6mT$eBZneav" role="3dOMoI" />
-          <node concept="3dOM_R" id="6mT$eBZntep" role="3dOMoI" />
+          <node concept="e47DK" id="6mT$eBZnISz" role="3dOMoI">
+            <ref role="e47DL" node="6mT$eBZnIRM" resolve="print hashmaps" />
+          </node>
+          <node concept="3mGVhB" id="6mT$eBZnEPL" role="3dOMoI">
+            <node concept="2$X7mM" id="6mT$eBZnEPN" role="3mGVhA">
+              <ref role="2$X7mL" node="swT7VcWJjh" resolve="range" />
+            </node>
+            <node concept="3mGVhS" id="6mT$eBZnEPP" role="3mGVv0">
+              <property role="TrG5h" value="r" />
+            </node>
+            <node concept="3IoBA6" id="6mT$eBZnFh5" role="3mIqSl">
+              <ref role="3Io$gq" node="6mT$eBZntoy" resolve="parse stored means" />
+              <node concept="3mJRPO" id="6mT$eBZnFq9" role="1z1ptF">
+                <ref role="3mJRO9" node="swT7VcWJmc" resolve="r" />
+              </node>
+              <node concept="2$X7mM" id="6mT$eBZnFqx" role="1z1ptF">
+                <ref role="2$X7mL" node="6mT$eBZndro" resolve="out range" />
+              </node>
+            </node>
+          </node>
           <node concept="3dOM_R" id="6mT$eBZnt8b" role="3dOMoI" />
           <node concept="e47DK" id="6mT$eBZn4GQ" role="3dOMoI">
             <ref role="e47DL" node="6mT$eBZmB6N" resolve="write table" />
@@ -1877,6 +2051,35 @@
       </node>
     </node>
     <node concept="24Vvte" id="6mT$eBZmB6l" role="2oCo7h" />
+    <node concept="eqlvg" id="6mT$eBZo4$n" role="2oCo7h">
+      <property role="TrG5h" value="calculate mean mark" />
+      <node concept="3JCee" id="6mT$eBZo4AB" role="eqlvi" />
+      <node concept="1zlxZD" id="6mT$eBZo4_C" role="eqlvh">
+        <property role="TrG5h" value="mark" />
+        <node concept="3JCee" id="6mT$eBZo4_O" role="1zlxRh" />
+      </node>
+      <node concept="1zlxZD" id="6mT$eBZo4_T" role="eqlvh">
+        <property role="TrG5h" value="mark sum" />
+        <node concept="3JCee" id="6mT$eBZo4Ab" role="1zlxRh" />
+      </node>
+      <node concept="1zlxZD" id="6mT$eBZo4Ag" role="eqlvh">
+        <property role="TrG5h" value="mark count" />
+        <node concept="3JCee" id="6mT$eBZo4Ay" role="1zlxRh" />
+      </node>
+    </node>
+    <node concept="eqlvg" id="6mT$eBZo9$4" role="2oCo7h">
+      <property role="TrG5h" value="plus" />
+      <node concept="3JCee" id="6mT$eBZo9_R" role="eqlvi" />
+      <node concept="1zlxZD" id="6mT$eBZo9_d" role="eqlvh">
+        <property role="TrG5h" value="val1" />
+        <node concept="2$WXgt" id="6mT$eBZoi62" role="1zlxRh" />
+      </node>
+      <node concept="1zlxZD" id="6mT$eBZo9_w" role="eqlvh">
+        <property role="TrG5h" value="val2" />
+        <node concept="3JCee" id="6mT$eBZo9_M" role="1zlxRh" />
+      </node>
+    </node>
+    <node concept="24Vvte" id="6mT$eBZo4yI" role="2oCo7h" />
     <node concept="eqlvg" id="swT7VcWJ9p" role="2oCo7h">
       <property role="TrG5h" value="start" />
       <node concept="2$QgSV" id="swT7VcWJbn" role="eqlvi" />
@@ -3046,6 +3249,10 @@
         <node concept="2$WXgt" id="6mT$eBZnbc4" role="1zlxRh" />
       </node>
       <node concept="2$QgSV" id="6mT$eBZnj8Y" role="eqlvi" />
+    </node>
+    <node concept="eqlvg" id="6mT$eBZnIRM" role="2oCo7h">
+      <property role="TrG5h" value="print hashmaps" />
+      <node concept="2$QgSV" id="6mT$eBZnISs" role="eqlvi" />
     </node>
   </node>
 </model>
