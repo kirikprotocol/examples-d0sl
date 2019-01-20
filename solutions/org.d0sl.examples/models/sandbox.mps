@@ -2,7 +2,7 @@
 <model ref="r:489c149b-27aa-4653-b561-f2f65868daaa(org.d0sl.examples.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="33179490-6db2-4c80-bd28-66b0152ec77c" name="SemanticLanguage" version="0" />
   </languages>
   <imports />
@@ -122,9 +122,9 @@
     </language>
   </registry>
   <node concept="2oCoeD" id="6xjv2j_L62R">
-    <property role="TrG5h" value="Autodrome" />
+    <property role="TrG5h" value="AutodromeDSL" />
     <node concept="1b7Vn$" id="6xjv2j_L630" role="2oCo7h">
-      <property role="1b7Vny" value="a stupid car" />
+      <property role="1b7Vny" value="a clever car" />
     </node>
     <node concept="3YRkNQ" id="6xjv2j_L62U" role="2oCo7h">
       <property role="TrG5h" value="Car" />
@@ -311,6 +311,21 @@
     </node>
     <node concept="24Vvte" id="2v3NsJLidrI" role="2oCo7h" />
     <node concept="24Vvte" id="2v3NsJLidqF" role="2oCo7h" />
+    <node concept="1b7Vn$" id="7dyB76FpfnO" role="2oCo7h">
+      <property role="1b7Vny" value="Sets the theme for Autodrome" />
+    </node>
+    <node concept="1b7Vn$" id="7dyB76FpfZe" role="2oCo7h">
+      <property role="1b7Vny" value="For now you can use &quot;NewYear&quot; theme instead of default" />
+    </node>
+    <node concept="eqlvg" id="7dyB76Fpft4" role="2oCo7h">
+      <property role="TrG5h" value="set theme" />
+      <node concept="2$QgSV" id="7dyB76FpfCw" role="eqlvi" />
+      <node concept="1zlxZD" id="7dyB76Fpfzx" role="eqlvh">
+        <property role="TrG5h" value="theme" />
+        <node concept="2$WXgt" id="7dyB76FpfBg" role="1zlxRh" />
+      </node>
+    </node>
+    <node concept="24Vvte" id="7dyB76Fpfqs" role="2oCo7h" />
     <node concept="1b7Vn$" id="2v3NsJLidoB" role="2oCo7h">
       <property role="1b7Vny" value="starts Autodrome" />
     </node>
@@ -332,7 +347,7 @@
     <node concept="3IqRW4" id="6xjv2j_L694" role="1UMHDP">
       <node concept="2M3fE7" id="3gg1d0bhloa" role="3IqRN$">
         <property role="1xsJ6A" value="org.d0sl.examples.auto.AutodromeDSL" />
-        <ref role="2M3fE0" node="6xjv2j_L62R" resolve="Autodrome" />
+        <ref role="2M3fE0" node="6xjv2j_L62R" resolve="AutodromeDSL" />
       </node>
       <node concept="1UMGO$" id="3gg1d0bhlmX" role="3IqRN$" />
       <node concept="3Irp9s" id="34RjmaQYOt$" role="3IqRN$">
@@ -650,6 +665,9 @@
       <node concept="3Irp9s" id="2sS$Gh6o1Dn" role="3IqRN$">
         <property role="TrG5h" value="start" />
         <node concept="3dOMoJ" id="2v3NsJLjtlO" role="3Irp8X">
+          <node concept="1b7Vn$" id="7dyB76FpF2W" role="3dOMoI">
+            <property role="1b7Vny" value="set walls" />
+          </node>
           <node concept="e47DK" id="2v3NsJLkI6S" role="3dOMoI">
             <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
             <node concept="3pNif" id="2v3NsJLkI7V" role="e47DM">
@@ -677,7 +695,9 @@
               <property role="3pNhO" value="8" />
             </node>
           </node>
-          <node concept="3dOM_R" id="2v3NsJLkI9$" role="3dOMoI" />
+          <node concept="1b7Vn$" id="7dyB76FpFkG" role="3dOMoI">
+            <property role="1b7Vny" value="set road signs" />
+          </node>
           <node concept="e47DK" id="2v3NsJLkIin" role="3dOMoI">
             <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
             <node concept="3pNif" id="2v3NsJLkIio" role="e47DM">
@@ -714,14 +734,14 @@
               <property role="1z9qr$" value="east" />
             </node>
           </node>
-          <node concept="3dOM_R" id="2v3NsJLkIfV" role="3dOMoI" />
+          <node concept="3dOM_R" id="7dyB76FpEP9" role="3dOMoI" />
           <node concept="e47DK" id="2v3NsJLjtmf" role="3dOMoI">
             <ref role="e47DL" node="2sS$Gh6o1FV" resolve="start" />
             <node concept="3pNif" id="2v3NsJLjtn5" role="e47DM">
               <property role="3pNhO" value="10" />
             </node>
             <node concept="3pNif" id="2v3NsJLjtnJ" role="e47DM">
-              <property role="3pNhO" value="300" />
+              <property role="3pNhO" value="500" />
             </node>
           </node>
         </node>

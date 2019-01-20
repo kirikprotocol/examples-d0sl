@@ -2,7 +2,7 @@
 <model ref="r:a726387b-edf2-4dff-ae56-dc5ca01b8bf5(org.d0sl.examples.auto.drome)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -31,6 +31,7 @@
       <concept id="1215695201514" name="jetbrains.mps.baseLanguage.structure.MinusAssignmentExpression" flags="nn" index="d5anL" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1224573963862" name="jetbrains.mps.baseLanguage.structure.EnumValuesExpression" flags="nn" index="uiWXb">
         <reference id="1224573974191" name="enumClass" index="uiZuM" />
       </concept>
@@ -294,7 +295,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -318,46 +319,130 @@
       </node>
       <node concept="3Tm6S6" id="2q64CM40JxB" role="1B3o_S" />
     </node>
-    <node concept="1Pe0a1" id="2q64CM40JxR" role="jymVt">
-      <node concept="3clFbS" id="2q64CM40JxD" role="1Pe0a2">
-        <node concept="3cpWs8" id="2q64CM40JxF" role="3cqZAp">
-          <node concept="3cpWsn" id="2q64CM40JxE" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="classLoader" />
-            <node concept="3uibUv" id="2q64CM40JxG" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~ClassLoader" resolve="ClassLoader" />
-            </node>
-            <node concept="2OqwBi" id="2q64CM40JxH" role="33vP2m">
-              <node concept="3VsKOn" id="2q64CM40JxJ" role="2Oq$k0">
-                <ref role="3VsUkX" node="2q64CM40Jyo" resolve="Cell" />
-              </node>
-              <node concept="liA8E" id="2q64CM40JxK" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
-              </node>
+    <node concept="2tJIrI" id="7dyB76Fo4Ss" role="jymVt" />
+    <node concept="2YIFZL" id="7dyB76Fo6_H" role="jymVt">
+      <property role="TrG5h" value="setTheme" />
+      <node concept="3clFbS" id="7dyB76Fo6_K" role="3clF47">
+        <node concept="3clFbJ" id="7dyB76Fo7BX" role="3cqZAp">
+          <node concept="3clFbC" id="7dyB76Fo8mY" role="3clFbw">
+            <node concept="10Nm6u" id="7dyB76Fo8F1" role="3uHU7w" />
+            <node concept="37vLTw" id="7dyB76Fo7VD" role="3uHU7B">
+              <ref role="3cqZAo" node="7dyB76Fo73e" resolve="theme" />
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="2q64CM40JxL" role="3cqZAp">
-          <node concept="37vLTI" id="2q64CM40JxM" role="3clFbG">
-            <node concept="37vLTw" id="2q64CM40JxN" role="37vLTJ">
-              <ref role="3cqZAo" node="2q64CM40Jx_" resolve="wallIcon" />
-            </node>
-            <node concept="2ShNRf" id="2q64CM47Igm" role="37vLTx">
-              <node concept="1pGfFk" id="2q64CM47IiS" role="2ShVmc">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
-                <node concept="2OqwBi" id="2q64CM47IiT" role="37wK5m">
-                  <node concept="37vLTw" id="2q64CM47IiU" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2q64CM40JxE" resolve="classLoader" />
+          <node concept="3clFbS" id="7dyB76Fo7BZ" role="3clFbx">
+            <node concept="3cpWs8" id="7dyB76Fo8JU" role="3cqZAp">
+              <node concept="3cpWsn" id="7dyB76Fo8JV" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="classLoader" />
+                <node concept="3uibUv" id="7dyB76Fo8JW" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~ClassLoader" resolve="ClassLoader" />
+                </node>
+                <node concept="2OqwBi" id="7dyB76Fo8JX" role="33vP2m">
+                  <node concept="3VsKOn" id="7dyB76Fo8JY" role="2Oq$k0">
+                    <ref role="3VsUkX" node="2q64CM40Jyo" resolve="Cell" />
                   </node>
-                  <node concept="liA8E" id="2q64CM47IiV" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
-                    <node concept="Xl_RD" id="2q64CM47IiW" role="37wK5m">
-                      <property role="Xl_RC" value="autodrome/wall.png" />
+                  <node concept="liA8E" id="7dyB76Fo8JZ" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7dyB76Fo8K0" role="3cqZAp">
+              <node concept="37vLTI" id="7dyB76Fo8K1" role="3clFbG">
+                <node concept="37vLTw" id="7dyB76Fo8K9" role="37vLTJ">
+                  <ref role="3cqZAo" node="2q64CM40Jx_" resolve="wallIcon" />
+                </node>
+                <node concept="2ShNRf" id="7dyB76Fo8K2" role="37vLTx">
+                  <node concept="1pGfFk" id="7dyB76Fo8K3" role="2ShVmc">
+                    <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                    <node concept="2OqwBi" id="7dyB76Fo8K4" role="37wK5m">
+                      <node concept="37vLTw" id="7dyB76Fo8K5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7dyB76Fo8JV" resolve="classLoader" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76Fo8K6" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                        <node concept="Xl_RD" id="7dyB76Fo8K7" role="37wK5m">
+                          <property role="Xl_RC" value="autodrome/wall.png" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="9aQIb" id="7dyB76Fo9Ba" role="9aQIa">
+            <node concept="3clFbS" id="7dyB76Fo9Bb" role="9aQI4">
+              <node concept="3cpWs8" id="7dyB76Fo9GT" role="3cqZAp">
+                <node concept="3cpWsn" id="7dyB76Fo9GU" role="3cpWs9">
+                  <property role="3TUv4t" value="false" />
+                  <property role="TrG5h" value="classLoader" />
+                  <node concept="3uibUv" id="7dyB76Fo9GV" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~ClassLoader" resolve="ClassLoader" />
+                  </node>
+                  <node concept="2OqwBi" id="7dyB76Fo9GW" role="33vP2m">
+                    <node concept="3VsKOn" id="7dyB76Fo9GX" role="2Oq$k0">
+                      <ref role="3VsUkX" node="2q64CM40Jyo" resolve="Cell" />
+                    </node>
+                    <node concept="liA8E" id="7dyB76Fo9GY" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7dyB76Fo9GZ" role="3cqZAp">
+                <node concept="37vLTI" id="7dyB76Fo9H0" role="3clFbG">
+                  <node concept="37vLTw" id="7dyB76Fo9H8" role="37vLTJ">
+                    <ref role="3cqZAo" node="2q64CM40Jx_" resolve="wallIcon" />
+                  </node>
+                  <node concept="2ShNRf" id="7dyB76Fo9H1" role="37vLTx">
+                    <node concept="1pGfFk" id="7dyB76Fo9H2" role="2ShVmc">
+                      <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                      <node concept="2OqwBi" id="7dyB76Fo9H3" role="37wK5m">
+                        <node concept="37vLTw" id="7dyB76Fo9H4" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7dyB76Fo9GU" resolve="classLoader" />
+                        </node>
+                        <node concept="liA8E" id="7dyB76Fo9H5" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                          <node concept="3cpWs3" id="7dyB76Fobqz" role="37wK5m">
+                            <node concept="Xl_RD" id="7dyB76FobQW" role="3uHU7w">
+                              <property role="Xl_RC" value="/wall.png" />
+                            </node>
+                            <node concept="3cpWs3" id="7dyB76FoalH" role="3uHU7B">
+                              <node concept="Xl_RD" id="7dyB76Fo9H6" role="3uHU7B">
+                                <property role="Xl_RC" value="autodrome/" />
+                              </node>
+                              <node concept="37vLTw" id="7dyB76FoaKN" role="3uHU7w">
+                                <ref role="3cqZAo" node="7dyB76Fo73e" resolve="theme" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7dyB76Fo5E0" role="1B3o_S" />
+      <node concept="3cqZAl" id="7dyB76Fo6qR" role="3clF45" />
+      <node concept="37vLTG" id="7dyB76Fo73e" role="3clF46">
+        <property role="TrG5h" value="theme" />
+        <node concept="3uibUv" id="7dyB76Fo73d" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Pe0a1" id="2q64CM40JxR" role="jymVt">
+      <node concept="3clFbS" id="2q64CM40JxD" role="1Pe0a2">
+        <node concept="3clFbF" id="7dyB76FodrK" role="3cqZAp">
+          <node concept="1rXfSq" id="7dyB76FodrJ" role="3clFbG">
+            <ref role="37wK5l" node="7dyB76Fo6_H" resolve="setTheme" />
+            <node concept="10Nm6u" id="7dyB76Foe3q" role="37wK5m" />
           </node>
         </node>
       </node>
@@ -478,159 +563,386 @@
       </node>
       <node concept="3Tm6S6" id="2q64CM40Jyz" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="7dyB76FnJ6u" role="jymVt" />
+    <node concept="2YIFZL" id="7dyB76FnLlK" role="jymVt">
+      <property role="TrG5h" value="setTheme" />
+      <node concept="3clFbS" id="7dyB76FnLlN" role="3clF47">
+        <node concept="3clFbJ" id="7dyB76FnN0k" role="3cqZAp">
+          <node concept="3y3z36" id="7dyB76FnNIP" role="3clFbw">
+            <node concept="37vLTw" id="7dyB76FnNk0" role="3uHU7B">
+              <ref role="3cqZAo" node="7dyB76FnMmH" resolve="theme" />
+            </node>
+            <node concept="10Nm6u" id="7dyB76FnO38" role="3uHU7w" />
+          </node>
+          <node concept="3clFbS" id="7dyB76FnN0m" role="3clFbx">
+            <node concept="3cpWs8" id="7dyB76FnPbA" role="3cqZAp">
+              <node concept="3cpWsn" id="7dyB76FnPbB" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="classLoader" />
+                <node concept="3uibUv" id="7dyB76FnPbC" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~ClassLoader" resolve="ClassLoader" />
+                </node>
+                <node concept="2OqwBi" id="7dyB76FnPbD" role="33vP2m">
+                  <node concept="3VsKOn" id="7dyB76FnPbE" role="2Oq$k0">
+                    <ref role="3VsUkX" node="2q64CM40Jyo" resolve="Cell" />
+                  </node>
+                  <node concept="liA8E" id="7dyB76FnPbF" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7dyB76FnPbG" role="3cqZAp">
+              <node concept="37vLTI" id="7dyB76FnPbH" role="3clFbG">
+                <node concept="AH0OO" id="7dyB76FnPbI" role="37vLTJ">
+                  <node concept="37vLTw" id="7dyB76FnPbT" role="AHHXb">
+                    <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
+                  </node>
+                  <node concept="2OqwBi" id="7dyB76FnPbJ" role="AHEQo">
+                    <node concept="Rm8GO" id="7dyB76FnPbK" role="2Oq$k0">
+                      <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
+                      <ref role="Rm8GQ" node="2q64CM40JVS" resolve="north" />
+                    </node>
+                    <node concept="liA8E" id="7dyB76FnPbL" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="7dyB76FnPbM" role="37vLTx">
+                  <node concept="1pGfFk" id="7dyB76FnPbN" role="2ShVmc">
+                    <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                    <node concept="2OqwBi" id="7dyB76FnPbO" role="37wK5m">
+                      <node concept="37vLTw" id="7dyB76FnPbP" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7dyB76FnPbB" resolve="classLoader" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76FnPbQ" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                        <node concept="3cpWs3" id="7dyB76FnS_u" role="37wK5m">
+                          <node concept="Xl_RD" id="7dyB76FnTNh" role="3uHU7w">
+                            <property role="Xl_RC" value="/car-north.png" />
+                          </node>
+                          <node concept="3cpWs3" id="7dyB76FnRtK" role="3uHU7B">
+                            <node concept="Xl_RD" id="7dyB76FnPbR" role="3uHU7B">
+                              <property role="Xl_RC" value="autodrome/" />
+                            </node>
+                            <node concept="37vLTw" id="7dyB76FnRXj" role="3uHU7w">
+                              <ref role="3cqZAo" node="7dyB76FnMmH" resolve="theme" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7dyB76FnPbV" role="3cqZAp">
+              <node concept="37vLTI" id="7dyB76FnPbW" role="3clFbG">
+                <node concept="AH0OO" id="7dyB76FnPbX" role="37vLTJ">
+                  <node concept="37vLTw" id="7dyB76FnPc8" role="AHHXb">
+                    <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
+                  </node>
+                  <node concept="2OqwBi" id="7dyB76FnPbY" role="AHEQo">
+                    <node concept="Rm8GO" id="7dyB76FnPbZ" role="2Oq$k0">
+                      <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
+                      <ref role="Rm8GQ" node="2q64CM40JVU" resolve="east" />
+                    </node>
+                    <node concept="liA8E" id="7dyB76FnPc0" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="7dyB76FnPc1" role="37vLTx">
+                  <node concept="1pGfFk" id="7dyB76FnPc2" role="2ShVmc">
+                    <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                    <node concept="2OqwBi" id="7dyB76FnPc3" role="37wK5m">
+                      <node concept="37vLTw" id="7dyB76FnPc4" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7dyB76FnPbB" resolve="classLoader" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76FnPc5" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                        <node concept="3cpWs3" id="7dyB76FnUzK" role="37wK5m">
+                          <node concept="Xl_RD" id="7dyB76FnUzL" role="3uHU7w">
+                            <property role="Xl_RC" value="/car-east.png" />
+                          </node>
+                          <node concept="3cpWs3" id="7dyB76FnUzM" role="3uHU7B">
+                            <node concept="Xl_RD" id="7dyB76FnUzN" role="3uHU7B">
+                              <property role="Xl_RC" value="autodrome/" />
+                            </node>
+                            <node concept="37vLTw" id="7dyB76FnUzO" role="3uHU7w">
+                              <ref role="3cqZAo" node="7dyB76FnMmH" resolve="theme" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7dyB76FnPca" role="3cqZAp">
+              <node concept="37vLTI" id="7dyB76FnPcb" role="3clFbG">
+                <node concept="AH0OO" id="7dyB76FnPcc" role="37vLTJ">
+                  <node concept="37vLTw" id="7dyB76FnPcn" role="AHHXb">
+                    <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
+                  </node>
+                  <node concept="2OqwBi" id="7dyB76FnPcd" role="AHEQo">
+                    <node concept="Rm8GO" id="7dyB76FnPce" role="2Oq$k0">
+                      <ref role="Rm8GQ" node="2q64CM40JVW" resolve="south" />
+                      <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
+                    </node>
+                    <node concept="liA8E" id="7dyB76FnPcf" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="7dyB76FnPcg" role="37vLTx">
+                  <node concept="1pGfFk" id="7dyB76FnPch" role="2ShVmc">
+                    <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                    <node concept="2OqwBi" id="7dyB76FnPci" role="37wK5m">
+                      <node concept="37vLTw" id="7dyB76FnPcj" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7dyB76FnPbB" resolve="classLoader" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76FnPck" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                        <node concept="3cpWs3" id="7dyB76FnViL" role="37wK5m">
+                          <node concept="Xl_RD" id="7dyB76FnViM" role="3uHU7w">
+                            <property role="Xl_RC" value="/car-south.png" />
+                          </node>
+                          <node concept="3cpWs3" id="7dyB76FnViN" role="3uHU7B">
+                            <node concept="Xl_RD" id="7dyB76FnViO" role="3uHU7B">
+                              <property role="Xl_RC" value="autodrome/" />
+                            </node>
+                            <node concept="37vLTw" id="7dyB76FnViP" role="3uHU7w">
+                              <ref role="3cqZAo" node="7dyB76FnMmH" resolve="theme" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7dyB76FnPcp" role="3cqZAp">
+              <node concept="37vLTI" id="7dyB76FnPcq" role="3clFbG">
+                <node concept="AH0OO" id="7dyB76FnPcr" role="37vLTJ">
+                  <node concept="37vLTw" id="7dyB76FnPcA" role="AHHXb">
+                    <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
+                  </node>
+                  <node concept="2OqwBi" id="7dyB76FnPcs" role="AHEQo">
+                    <node concept="Rm8GO" id="7dyB76FnPct" role="2Oq$k0">
+                      <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
+                      <ref role="Rm8GQ" node="2q64CM40JVY" resolve="west" />
+                    </node>
+                    <node concept="liA8E" id="7dyB76FnPcu" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="7dyB76FnPcv" role="37vLTx">
+                  <node concept="1pGfFk" id="7dyB76FnPcw" role="2ShVmc">
+                    <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                    <node concept="2OqwBi" id="7dyB76FnPcx" role="37wK5m">
+                      <node concept="37vLTw" id="7dyB76FnPcy" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7dyB76FnPbB" resolve="classLoader" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76FnPcz" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                        <node concept="3cpWs3" id="7dyB76FnWGt" role="37wK5m">
+                          <node concept="Xl_RD" id="7dyB76FnWGu" role="3uHU7w">
+                            <property role="Xl_RC" value="/car-west.png" />
+                          </node>
+                          <node concept="3cpWs3" id="7dyB76FnWGv" role="3uHU7B">
+                            <node concept="Xl_RD" id="7dyB76FnWGw" role="3uHU7B">
+                              <property role="Xl_RC" value="autodrome/" />
+                            </node>
+                            <node concept="37vLTw" id="7dyB76FnWGx" role="3uHU7w">
+                              <ref role="3cqZAo" node="7dyB76FnMmH" resolve="theme" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="7dyB76FnOo9" role="9aQIa">
+            <node concept="3clFbS" id="7dyB76FnOoa" role="9aQI4">
+              <node concept="3cpWs8" id="7dyB76FnOpH" role="3cqZAp">
+                <node concept="3cpWsn" id="7dyB76FnOpI" role="3cpWs9">
+                  <property role="3TUv4t" value="false" />
+                  <property role="TrG5h" value="classLoader" />
+                  <node concept="3uibUv" id="7dyB76FnOpJ" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~ClassLoader" resolve="ClassLoader" />
+                  </node>
+                  <node concept="2OqwBi" id="7dyB76FnOpK" role="33vP2m">
+                    <node concept="3VsKOn" id="7dyB76FnOpL" role="2Oq$k0">
+                      <ref role="3VsUkX" node="2q64CM40Jyo" resolve="Cell" />
+                    </node>
+                    <node concept="liA8E" id="7dyB76FnOpM" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7dyB76FnOpN" role="3cqZAp">
+                <node concept="37vLTI" id="7dyB76FnOpO" role="3clFbG">
+                  <node concept="AH0OO" id="7dyB76FnOpP" role="37vLTJ">
+                    <node concept="37vLTw" id="7dyB76FnOq0" role="AHHXb">
+                      <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
+                    </node>
+                    <node concept="2OqwBi" id="7dyB76FnOpQ" role="AHEQo">
+                      <node concept="Rm8GO" id="7dyB76FnOpR" role="2Oq$k0">
+                        <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
+                        <ref role="Rm8GQ" node="2q64CM40JVS" resolve="north" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76FnOpS" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="7dyB76FnOpT" role="37vLTx">
+                    <node concept="1pGfFk" id="7dyB76FnOpU" role="2ShVmc">
+                      <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                      <node concept="2OqwBi" id="7dyB76FnOpV" role="37wK5m">
+                        <node concept="37vLTw" id="7dyB76FnOpW" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7dyB76FnOpI" resolve="classLoader" />
+                        </node>
+                        <node concept="liA8E" id="7dyB76FnOpX" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                          <node concept="Xl_RD" id="7dyB76FnOpY" role="37wK5m">
+                            <property role="Xl_RC" value="autodrome/car-north.png" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7dyB76FnOq2" role="3cqZAp">
+                <node concept="37vLTI" id="7dyB76FnOq3" role="3clFbG">
+                  <node concept="AH0OO" id="7dyB76FnOq4" role="37vLTJ">
+                    <node concept="37vLTw" id="7dyB76FnOqf" role="AHHXb">
+                      <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
+                    </node>
+                    <node concept="2OqwBi" id="7dyB76FnOq5" role="AHEQo">
+                      <node concept="Rm8GO" id="7dyB76FnOq6" role="2Oq$k0">
+                        <ref role="Rm8GQ" node="2q64CM40JVU" resolve="east" />
+                        <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76FnOq7" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="7dyB76FnOq8" role="37vLTx">
+                    <node concept="1pGfFk" id="7dyB76FnOq9" role="2ShVmc">
+                      <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                      <node concept="2OqwBi" id="7dyB76FnOqa" role="37wK5m">
+                        <node concept="37vLTw" id="7dyB76FnOqb" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7dyB76FnOpI" resolve="classLoader" />
+                        </node>
+                        <node concept="liA8E" id="7dyB76FnOqc" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                          <node concept="Xl_RD" id="7dyB76FnOqd" role="37wK5m">
+                            <property role="Xl_RC" value="autodrome/car-east.png" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7dyB76FnOqh" role="3cqZAp">
+                <node concept="37vLTI" id="7dyB76FnOqi" role="3clFbG">
+                  <node concept="AH0OO" id="7dyB76FnOqj" role="37vLTJ">
+                    <node concept="37vLTw" id="7dyB76FnOqu" role="AHHXb">
+                      <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
+                    </node>
+                    <node concept="2OqwBi" id="7dyB76FnOqk" role="AHEQo">
+                      <node concept="Rm8GO" id="7dyB76FnOql" role="2Oq$k0">
+                        <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
+                        <ref role="Rm8GQ" node="2q64CM40JVW" resolve="south" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76FnOqm" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="7dyB76FnOqn" role="37vLTx">
+                    <node concept="1pGfFk" id="7dyB76FnOqo" role="2ShVmc">
+                      <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                      <node concept="2OqwBi" id="7dyB76FnOqp" role="37wK5m">
+                        <node concept="37vLTw" id="7dyB76FnOqq" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7dyB76FnOpI" resolve="classLoader" />
+                        </node>
+                        <node concept="liA8E" id="7dyB76FnOqr" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                          <node concept="Xl_RD" id="7dyB76FnOqs" role="37wK5m">
+                            <property role="Xl_RC" value="autodrome/car-south.png" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7dyB76FnOqw" role="3cqZAp">
+                <node concept="37vLTI" id="7dyB76FnOqx" role="3clFbG">
+                  <node concept="AH0OO" id="7dyB76FnOqy" role="37vLTJ">
+                    <node concept="37vLTw" id="7dyB76FnOqH" role="AHHXb">
+                      <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
+                    </node>
+                    <node concept="2OqwBi" id="7dyB76FnOqz" role="AHEQo">
+                      <node concept="Rm8GO" id="7dyB76FnOq$" role="2Oq$k0">
+                        <ref role="Rm8GQ" node="2q64CM40JVY" resolve="west" />
+                        <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
+                      </node>
+                      <node concept="liA8E" id="7dyB76FnOq_" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="7dyB76FnOqA" role="37vLTx">
+                    <node concept="1pGfFk" id="7dyB76FnOqB" role="2ShVmc">
+                      <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
+                      <node concept="2OqwBi" id="7dyB76FnOqC" role="37wK5m">
+                        <node concept="37vLTw" id="7dyB76FnOqD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7dyB76FnOpI" resolve="classLoader" />
+                        </node>
+                        <node concept="liA8E" id="7dyB76FnOqE" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                          <node concept="Xl_RD" id="7dyB76FnOqF" role="37wK5m">
+                            <property role="Xl_RC" value="autodrome/car-west.png" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7dyB76FnKl8" role="1B3o_S" />
+      <node concept="3cqZAl" id="7dyB76FnM6V" role="3clF45" />
+      <node concept="37vLTG" id="7dyB76FnMmH" role="3clF46">
+        <property role="TrG5h" value="theme" />
+        <node concept="3uibUv" id="7dyB76FnMmG" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+      </node>
+    </node>
     <node concept="1Pe0a1" id="2q64CM40Jzd" role="jymVt">
       <node concept="3clFbS" id="2q64CM40Jy_" role="1Pe0a2">
-        <node concept="3cpWs8" id="2q64CM40JyB" role="3cqZAp">
-          <node concept="3cpWsn" id="2q64CM40JyA" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="classLoader" />
-            <node concept="3uibUv" id="2q64CM40JyC" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~ClassLoader" resolve="ClassLoader" />
-            </node>
-            <node concept="2OqwBi" id="2q64CM40JyD" role="33vP2m">
-              <node concept="3VsKOn" id="2q64CM40JyF" role="2Oq$k0">
-                <ref role="3VsUkX" node="2q64CM40Jyo" resolve="Cell" />
-              </node>
-              <node concept="liA8E" id="2q64CM40JyG" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2q64CM40JyH" role="3cqZAp">
-          <node concept="37vLTI" id="2q64CM40JyI" role="3clFbG">
-            <node concept="AH0OO" id="2q64CM40JyJ" role="37vLTJ">
-              <node concept="37vLTw" id="2q64CM40JyK" role="AHHXb">
-                <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
-              </node>
-              <node concept="2OqwBi" id="2q64CM46Rkw" role="AHEQo">
-                <node concept="Rm8GO" id="2q64CM46Rkv" role="2Oq$k0">
-                  <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
-                  <ref role="Rm8GQ" node="2q64CM40JVS" resolve="north" />
-                </node>
-                <node concept="liA8E" id="2q64CM46Rkx" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
-                </node>
-              </node>
-            </node>
-            <node concept="2ShNRf" id="2q64CM46RmR" role="37vLTx">
-              <node concept="1pGfFk" id="2q64CM46SDc" role="2ShVmc">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
-                <node concept="2OqwBi" id="2q64CM46SDd" role="37wK5m">
-                  <node concept="37vLTw" id="2q64CM46SDe" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2q64CM40JyA" resolve="classLoader" />
-                  </node>
-                  <node concept="liA8E" id="2q64CM46SDf" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
-                    <node concept="Xl_RD" id="2q64CM46SDg" role="37wK5m">
-                      <property role="Xl_RC" value="autodrome/car-north.png" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2q64CM40JyP" role="3cqZAp">
-          <node concept="37vLTI" id="2q64CM40JyQ" role="3clFbG">
-            <node concept="AH0OO" id="2q64CM40JyR" role="37vLTJ">
-              <node concept="37vLTw" id="2q64CM40JyS" role="AHHXb">
-                <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
-              </node>
-              <node concept="2OqwBi" id="2q64CM46Qyh" role="AHEQo">
-                <node concept="Rm8GO" id="2q64CM46Qyg" role="2Oq$k0">
-                  <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
-                  <ref role="Rm8GQ" node="2q64CM40JVU" resolve="east" />
-                </node>
-                <node concept="liA8E" id="2q64CM46Qyi" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
-                </node>
-              </node>
-            </node>
-            <node concept="2ShNRf" id="2q64CM46SNO" role="37vLTx">
-              <node concept="1pGfFk" id="2q64CM46SQf" role="2ShVmc">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
-                <node concept="2OqwBi" id="2q64CM46SQg" role="37wK5m">
-                  <node concept="37vLTw" id="2q64CM46SQh" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2q64CM40JyA" resolve="classLoader" />
-                  </node>
-                  <node concept="liA8E" id="2q64CM46SQi" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
-                    <node concept="Xl_RD" id="2q64CM46SQj" role="37wK5m">
-                      <property role="Xl_RC" value="autodrome/car-east.png" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2q64CM40JyX" role="3cqZAp">
-          <node concept="37vLTI" id="2q64CM40JyY" role="3clFbG">
-            <node concept="AH0OO" id="2q64CM40JyZ" role="37vLTJ">
-              <node concept="37vLTw" id="2q64CM40Jz0" role="AHHXb">
-                <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
-              </node>
-              <node concept="2OqwBi" id="2q64CM46Qma" role="AHEQo">
-                <node concept="Rm8GO" id="2q64CM46Qm9" role="2Oq$k0">
-                  <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
-                  <ref role="Rm8GQ" node="2q64CM40JVW" resolve="south" />
-                </node>
-                <node concept="liA8E" id="2q64CM46Qmb" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
-                </node>
-              </node>
-            </node>
-            <node concept="2ShNRf" id="2q64CM46Tdv" role="37vLTx">
-              <node concept="1pGfFk" id="2q64CM46TfU" role="2ShVmc">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
-                <node concept="2OqwBi" id="2q64CM46TfV" role="37wK5m">
-                  <node concept="37vLTw" id="2q64CM46TfW" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2q64CM40JyA" resolve="classLoader" />
-                  </node>
-                  <node concept="liA8E" id="2q64CM46TfX" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
-                    <node concept="Xl_RD" id="2q64CM46TfY" role="37wK5m">
-                      <property role="Xl_RC" value="autodrome/car-south.png" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2q64CM40Jz5" role="3cqZAp">
-          <node concept="37vLTI" id="2q64CM40Jz6" role="3clFbG">
-            <node concept="AH0OO" id="2q64CM40Jz7" role="37vLTJ">
-              <node concept="37vLTw" id="2q64CM40Jz8" role="AHHXb">
-                <ref role="3cqZAo" node="2q64CM40Jyr" resolve="carIcons" />
-              </node>
-              <node concept="2OqwBi" id="2q64CM46QDE" role="AHEQo">
-                <node concept="Rm8GO" id="2q64CM46QDD" role="2Oq$k0">
-                  <ref role="1Px2BO" node="2q64CM40JVP" resolve="Direction" />
-                  <ref role="Rm8GQ" node="2q64CM40JVY" resolve="west" />
-                </node>
-                <node concept="liA8E" id="2q64CM46QDF" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Enum.ordinal():int" resolve="ordinal" />
-                </node>
-              </node>
-            </node>
-            <node concept="2ShNRf" id="2q64CM46QPo" role="37vLTx">
-              <node concept="1pGfFk" id="2q64CM46QQc" role="2ShVmc">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.net.URL)" resolve="ImageIcon" />
-                <node concept="2OqwBi" id="2q64CM46Uri" role="37wK5m">
-                  <node concept="37vLTw" id="2q64CM46Urh" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2q64CM40JyA" resolve="classLoader" />
-                  </node>
-                  <node concept="liA8E" id="2q64CM46Urj" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
-                    <node concept="Xl_RD" id="2q64CM46Urk" role="37wK5m">
-                      <property role="Xl_RC" value="autodrome/car-west.png" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+        <node concept="3clFbF" id="7dyB76Fo3gh" role="3cqZAp">
+          <node concept="1rXfSq" id="7dyB76Fo3gg" role="3clFbG">
+            <ref role="37wK5l" node="7dyB76FnLlK" resolve="setTheme" />
+            <node concept="10Nm6u" id="7dyB76Fo4sV" role="37wK5m" />
           </node>
         </node>
       </node>
